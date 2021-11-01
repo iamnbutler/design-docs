@@ -1,7 +1,7 @@
 <template>
   <div
-    class="collapsible relative -left-6 cursor-pointer flex flex-col mb-2"
-    :class="{ active: isActive }"
+    class="collapsible relative cursor-pointer flex flex-col mb-2"
+    :class="{ active: isActive, '-left-6': outdent }"
   >
     <div
       class="title flex flex-row items-center font-medium"
@@ -25,7 +25,7 @@
         <slot name="title">Title</slot>
       </div>
     </div>
-    <div class="content hidden ml-6">
+    <div class="content hidden" :class="{ 'ml-6': outdent }">
       <slot name="content"></slot>
     </div>
   </div>
@@ -35,6 +35,7 @@
 export default {
   props: {
     expanded: Boolean,
+    outdent: Boolean,
   },
   data() {
     if (this.expanded) {
