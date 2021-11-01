@@ -11,18 +11,18 @@
       </li>
       <li>
         <NuxtLink
-          to="/basics"
+          to="/roles"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
-          >Learn the basics</NuxtLink
+          >Discover the roles</NuxtLink
         >
       </li>
       <li>
         <NuxtLink
-          to="/roles"
+          to="/basics"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
-          >Understand the roles</NuxtLink
+          >Learn the basics</NuxtLink
         >
       </li>
       <li>

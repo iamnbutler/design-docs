@@ -1,23 +1,5 @@
 <template>
   <article>
-    <h2>Finding your path</h2>
-    <p>
-      Early career designers face a flurry of roles, expectations and
-      technologies they are expected to understand, consider and internalize.
-    </p>
-    <p>
-      "Do I continue to learn and practice a variety of different types of
-      design? Or do I specialize in one thing like brand design, prototyping?"
-    </p>
-    <p>
-      "Should I learn to code? Write? How about learning 3D? Business? There
-      seems to be an endless amount of things to learn, and my time is limited."
-    </p>
-    <p>
-      While opinions varry, I'm going to put a path forward while explaining the
-      roles that exist, and where specialization makes sense.
-    </p>
-
     <h2>Design roles</h2>
     <p>
       A good way to get an overview of what different types of designers do in
@@ -117,5 +99,6 @@
       </template>
       <template v-slot:content> hello world </template>
     </Collapsible>
+    <FooterNav prev prevLink="index" prevText="Intro" next nextLink="basics" nextText="Learn the basics" />
   </article>
 </template>

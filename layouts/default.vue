@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container mx-auto flex flex-row pt-32">
+    <div class="container mx-auto flex flex-row pt-32 pb-32">
       <Nav></Nav>
       <div class="docs prose font-prose flex-auto">
           <slot />
