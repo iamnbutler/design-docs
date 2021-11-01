@@ -1,5 +1,8 @@
 <template>
-  <div class="collapseable cursor-pointer flex flex-col mb-2" :class="{ active: isActive }">
+  <div
+    class="collapsible relative -left-6 cursor-pointer flex flex-col mb-2"
+    :class="{ active: isActive }"
+  >
     <div
       class="title flex flex-row items-center font-medium"
       @click="isActive = !isActive"
@@ -18,9 +21,11 @@
           />
         </svg>
       </span>
-      <slot name="title">Title</slot>
+      <div class="title-content">
+        <slot name="title">Title</slot>
+      </div>
     </div>
-    <div class="content hidden pl-6">
+    <div class="content hidden ml-6">
       <slot name="content"></slot>
     </div>
   </div>
@@ -28,30 +33,44 @@
 
 <script>
 export default {
+  props: {
+    expanded: Boolean,
+  },
   data() {
-    return { isActive: false };
+    if (this.expanded) {
+      return { isActive: true };
+    } else {
+      return { isActive: false };
+    }
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.collapsible {
+  .icon {
+    display: inline-block;
 
-.icon {
-  display: inline-block;
-
-  & svg {
-    transition: all 100ms;
-    fill: rgba(0, 0, 0, 0.4);
+    & svg {
+      transition: all 100ms;
+      fill: rgba(0, 0, 0, 0.4);
+    }
   }
-}
-.active .icon {
-  & svg {
-    transform: rotate(90deg);
-    fill: rgba(0, 0, 0, 1);
-  }
-}
+  &.active {
+    .icon {
+      & svg {
+        transform: rotate(90deg);
+        fill: rgba(0, 0, 0, 1);
+      }
+    }
 
-.active .content {
-    display: block;
+    .content {
+      display: block;
+    }
+  }
+
+  .title-content > * {
+    margin: 0;
+  }
 }
 </style>
