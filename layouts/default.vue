@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container mx-auto flex flex-row pt-16">
+    <div class="container mx-auto flex flex-row pt-32">
       <Nav></Nav>
       <div class="docs prose font-prose flex-auto">
           <slot />
@@ -14,6 +14,10 @@
 
 body {
   width: 100vw;
+}
+
+.prose h2 {
+  margin-top: 0;
 }
 
 </style>

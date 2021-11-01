@@ -1,6 +1,6 @@
 <template>
   <article>
-    <h2>1. Learn the Basics</h2>
+    <h2>Learn the Basics</h2>
     <h3>Design fundimentals</h3>
     <h3>Choose your tools</h3>
     <h3>Should designers _______?</h3>

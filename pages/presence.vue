@@ -1,5 +1,6 @@
 <template>
   <article>
-    <h1 class="p-4 text-red-400">Home</h1>
+    <h2>Be searchable</h2>
+    <h2>Build a presence</h2>
   </article>
 </template>

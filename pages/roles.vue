@@ -1,29 +1,32 @@
 <template>
   <article>
-    <h2>Design Roles & Paths</h2>
+    <h2>Finding your path</h2>
     <p>
-      Early in a their career there is an initial fork that many designers
-      reach:
-    </p>
-    <ol>
-      <li>
-        Do I continue to learn and practice a variety of different types of
-        design?
-      </li>
-      <li>
-        Or do I specilize in one thing like brand design, prototyping, etc?
-      </li>
-    </ol>
-    <p>
-      There are many opinions on this topic, but in my personal experience I
-      would guide designers early in their careers to take a general approach to
-      design.
+      Early career designers face a flurry of roles, expectations and
+      technologies they are expected to understand, consider and internalize.
     </p>
     <p>
-      Building fundimental skills and crafting high quality work with level up
-      your design work at a fast pace.
+      "Do I continue to learn and practice a variety of different types of
+      design? Or do I specialize in one thing like brand design, prototyping?"
     </p>
+    <p>
+      "Should I learn to code? Write? How about learning 3D? Business?
+      There seems to be an endless amount of things to learn, and my
+      time is limited."
+    </p>
+    <p>
+      While opinions varry, I'm going to put a path forward while explaining the
+      roles that exist, and where specialization makes sense.
+    </p>
+
+    <h2>Design roles</h2>
     <h3>General Design Roles</h3>
+    <Collapsible>
+      <template v-slot:title>
+        Product Design
+      </template>
+      <template v-slot:content> hello world </template>
+    </Collapsible>
     <ul>
       <li>
         Product Design
@@ -62,7 +65,8 @@
       <li>Design Engineer (or Frontend Developer)</li>
       <li>Software Developer</li>
     </ul>
-    <h3>Questions</h3>
+    <h2>The golden path</h2>
+    <h2>Q&amp;A</h2>
     <Collapsible>
       <template v-slot:title>
         How are UI, UX and Product Design different?

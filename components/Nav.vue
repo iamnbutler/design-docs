@@ -57,10 +57,18 @@
           >Talk about your work</NuxtLink
         >
       </li>
+      <li>
+        <NuxtLink
+          to="/readings"
+          class="pt-2 pb-2 mb-2 inline-flex border-b-4"
+          active-class="active"
+          >Further Readings</NuxtLink
+        >
+      </li>
     </ul>
     <p class="mt-6 text-xs text-gray-500">
       Ver 1.0,
-      <a rel="author" href="https://twitter.com/iamnbutler" class="inline-block "
+      <a rel="author" href="https://twitter.com/iamnbutler" class="inline-block hover:text-gray-800"
         >Nate Butler</a
       >
     </p>
