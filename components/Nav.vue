@@ -4,9 +4,9 @@
       <li>
         <NuxtLink
           to="/"
-          class="pb-2 mb-2 font-bold inline-flex border-b-4"
+          class="pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
-          ><h1>Intro to the Design Industry</h1></NuxtLink
+          >Introduction</NuxtLink
         >
       </li>
       <li>
@@ -18,43 +18,63 @@
         >
       </li>
       <li>
-        <NuxtLink
+        <!-- <NuxtLink
           to="/basics"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
-          >Learn the basics</NuxtLink
+          >Build a foundation</NuxtLink
+        > -->
+        <a
+          href="#coming-soon"
+          class="
+            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
+          "
+          >Build a foundation</a
         >
       </li>
       <li>
-        <NuxtLink
+        <!-- <NuxtLink
           to="/work"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Have work to show</NuxtLink
+        > -->
+        <a
+          href="#coming-soon"
+          class="
+            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
+          "
+          >Have work to show</a
         >
       </li>
       <li>
-        <NuxtLink
+        <!-- <NuxtLink
           to="/portfolio"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Have a portfolio</NuxtLink
+        > -->
+        <a
+          href="#coming-soon"
+          class="
+            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
+          "
+          >Have a portfolio</a
         >
       </li>
       <li>
-        <NuxtLink
-          to="/presence"
-          class="pt-2 pb-2 mb-2 inline-flex border-b-4"
-          active-class="active"
-          >Be searchable</NuxtLink
-        >
-      </li>
-      <li>
-        <NuxtLink
+        <!-- <NuxtLink
           to="/talk"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Talk about your work</NuxtLink
+        > -->
+        <a
+          href="#coming-soon"
+          class="
+            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
+          "
+          >Talk about your work</a
         >
       </li>
       <li>
@@ -68,34 +88,38 @@
     </ul>
     <p class="mt-6 text-xs text-gray-500">
       Ver 1.0,
-      <a rel="author" href="https://twitter.com/iamnbutler" class="inline-block hover:text-gray-800"
+      <a
+        rel="author"
+        href="https://twitter.com/iamnbutler"
+        class="inline-block hover:text-gray-800"
         >Nate Butler</a
       >
     </p>
-    <p class="mt-2 text-xs text-gray-400">Last updated <time
+    <p class="mt-2 text-xs text-gray-400">
+      Last updated
+      <time
         class="inline-block"
         pubdate
         datetime="2021-11-04"
         title="November 4th, 2021"
         >11.04.21</time
-      ></p>
+      >
+    </p>
   </nav>
 </template>
 
 <style lang="scss" scoped>
-
-a:not(.active) {
+a:not(.active, .inactive) {
   border-bottom-color: transparent;
   &:hover {
-    border-bottom-color: #34D399;  
+    border-bottom-color: #34d399;
   }
 }
 
 a.active {
-  border-bottom-color: #34D399;
+  border-bottom-color: #34d399;
   &:hover {
-    border-bottom-color: #10B981;  
+    border-bottom-color: #10b981;
   }
 }
-
 </style>

@@ -66,6 +66,14 @@ export default {
     }
 
     & > .content {
+      padding-bottom: 2rem;
+      &::after {
+        content: "⸺";
+        color: #ddd;
+      }
+    }
+
+    & > .content {
       display: block;
     }
   }
