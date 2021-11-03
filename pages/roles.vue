@@ -218,7 +218,7 @@
         </ul>
       </template>
     </Collapsible>
-    <FooterNav prev prevLink="index" prevText="Intro" />
+    <FooterNav prev prevLink="/" prevText="Intro" />
     <!-- next
     nextLink="basics"
     nextText="Learn the basics" -->
