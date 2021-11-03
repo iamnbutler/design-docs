@@ -1,10 +1,10 @@
 <template>
   <div
-    class="collapsible relative flex flex-col mb-2"
+    class="collapsible-nested relative flex flex-col mb-2"
     :class="{ active: isActive, '-left-6': outdent }"
   >
     <div
-      class="title flex flex-row items-center font-medium cursor-pointer"
+      class="title flex flex-row items-center font-medium cursor-pointer bg-gray-100 p-1 pl-3 rounded-lg"
       @click="isActive = !isActive"
     >
       <span class="icon chevron mr-3">
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss">
-.collapsible {
+.collapsible-nested {
   .icon {
     display: inline-block;
 
@@ -58,14 +58,14 @@ export default {
     }
   }
   &.active {
-    & > .title > .icon {
+    .icon {
       & svg {
         transform: rotate(90deg);
         fill: rgba(0, 0, 0, 1);
       }
     }
 
-    & > .content {
+    .content {
       display: block;
     }
   }
