@@ -1,10 +1,10 @@
 <template>
   <div
-    class="collapsible relative cursor-pointer flex flex-col mb-2"
+    class="collapsible relative flex flex-col mb-2"
     :class="{ active: isActive, '-left-6': outdent }"
   >
     <div
-      class="title flex flex-row items-center font-medium"
+      class="title flex flex-row items-center font-medium cursor-pointer"
       @click="isActive = !isActive"
     >
       <span class="icon chevron mr-3">
