@@ -12,6 +12,7 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1"
+    "@tailwindcss/typography": "^0.4.1",
+    "sass": "^1.43.4"
   }
 }
