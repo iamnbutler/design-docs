@@ -218,6 +218,76 @@
         </ul>
       </template>
     </Collapsible>
+    <h2>Senior Design Roles</h2>
+    <p>
+      <b>Design Management</b> – Many designers choose to pursue a role in
+      design management after leveling their craft for quite a few years. Design
+      Managers should enable the success of their designers and fight for their
+      seat at the table in all discussions and decisions.
+    </p>
+    <p>
+      Design managers should expect to be hands-off on actual product work,
+      creating space for the designers they manage to have opportunities to
+      grow.
+    </p>
+    <p>
+      <b>Staff/Director-level Design</b> – Becoming a manager isn't the only
+      track for a high-level designer continuing to level up their career. Brian
+      Lovin's <a href="https://staff.design/">staff.design</a> project is a
+      great place to learn more about staff-level designers and how they
+      contribute to their organizations.
+    </p>
+    <p>
+      <b>Systems Design</b> – Design Systems, and systems designers, are all the
+      rage right now in the design industry. It's tempting to jump feet first
+      into design systems, even at the beginning of a project. But there are a
+      few things to know about design systems:
+    </p>
+    <ol>
+      <li>
+        <b
+          >Don't confuse a component library, or style guide, with a design
+          system.</b
+        >
+        You can get the benefit of consistent color, typography & components
+        from a simple library of components. Trying to move your product into a
+        design system too soon can cut into creativity and add unnecessary
+        overhead.
+        <a
+          href="https://www.uxpin.com/studio/blog/design-systems-vs-pattern-libraries-vs-style-guides-whats-difference/"
+          >Read more</a
+        >
+      </li>
+      <li>
+        <b>Design systems harmonize an array of products across a system.</b> If
+        you are creating a website with only a few pages or an app with only a
+        few primary features, a design system is often overkill. Once multiple
+        teams work on different projects in parallel, it might be time to
+        consider a system.
+      </li>
+      <li>
+        <b
+          >Systems design is one of the most complex roles you can take on as a
+          designer.</b
+        >
+        Even very experienced designers often struggle while launching design
+        systems teams. They require high-level fundamentals, negotiation with
+        other designers and teams, company backing to encourage compliance, and
+        a vast amount of time to consider cases and build standards.
+      </li>
+    </ol>
+    <h3>Other Design Roles</h3>
+    <ul>
+      <li>Brand Design, Icon Design, Accessibility Design, Type Design, etc</li>
+      <li>Specializations inside a single field (UX designer -> prototyper or systems designer, visual designer -> brand designer)</li>
+      <li><a href="https://www.nngroup.com/articles/design-operations-101/">Design Operations</a></li>
+    </ul>
+    <h3>Tangential Roles</h3>
+    <p>These all require going deep on a skill I would consider outside of (but often valuable for!) a designer's core skill set.</p>
+    <p><b>Project Manager</b> – plan and document new ideas, and help organize a team around building them. Your responsibility as a product manager is to keep a team engaged and on time, as well as triage any conflicts your team might encounter.</p>
+    <p>Designers can become great product managers because, initially, these roles can seem to be at odds. Time and craft often rub against each other but producing a good product takes both. In the product manager role, you have the chance to argue from both sides, helping everyone on the team understand the value of both high-level execution and moving quickly.</p>
+    <p><b>Prototyper</b> – focus on building complex or detailed prototypes for other designers and teams. Prototypers may use a visual design tool like Figma or Origami Studio, an animation tool like After Effects, or even build prototypes in code.</p>
+    <p><b>Design Engineer/Developer</b> – like building your own designs? Some designers choose to learn the tools they need to build anything they design. These tools could range from learning a web stack to learning a language to build mobile apps like Swift or React Native.</p>
     <FooterNav prev prevLink="/" prevText="Intro" />
     <!-- next
     nextLink="basics"

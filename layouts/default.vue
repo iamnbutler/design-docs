@@ -21,6 +21,14 @@ body {
   margin-top: 0;
 }
 
+.prose h2:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.prose h3:not(:first-child) {
+  margin-top: 2rem;
+}
+
 figure p:first-child {
   margin-top: 0;
 }

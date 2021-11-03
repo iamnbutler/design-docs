@@ -49,6 +49,10 @@ export default {
 
 <style lang="scss">
 .collapsible {
+  margin-top: 1.5rem;
+}
+
+.collapsible {
   .icon {
     display: inline-block;
 
