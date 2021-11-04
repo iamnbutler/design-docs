@@ -48,18 +48,11 @@
         >
       </li>
       <li>
-        <!-- <NuxtLink
+        <NuxtLink
           to="/portfolio"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Have a portfolio</NuxtLink
-        > -->
-        <a
-          href="#coming-soon"
-          class="
-            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
-          "
-          >Have a portfolio</a
         >
       </li>
       <li>
