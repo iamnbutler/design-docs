@@ -30,8 +30,8 @@
           to="/work"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
-          >Have work to show</NuxtLink
-        >
+          >Have work to show </NuxtLink
+        ><span class="text-gray-400">&nbsp;🞯</span>
       </li>
       <li>
         <NuxtLink
@@ -47,7 +47,7 @@
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Talk about your work</NuxtLink
-        >
+        ><span class="text-gray-400">&nbsp;🞯</span>
       </li>
       <li>
         <NuxtLink
@@ -57,13 +57,18 @@
           >Further Reading</NuxtLink
         >
       </li>
+      <li><p class="mt-2 text-xs text-gray-400">🞯 Work in progress!</p></li>
     </ul>
-    <p class="mt-6 text-xs text-gray-500">
-      Ver 1.0,
+
+    <p class="pt-12 text-xs text-gray-500">
+      <a href="https://github.com/iamnbutler/design-resources" class="hover:text-gray-800" target="_blank"
+        >Ver 1.0</a
+      >,
       <a
         rel="author"
         href="https://twitter.com/iamnbutler"
         class="inline-block hover:text-gray-800"
+        target="_blank"
         >Nate Butler</a
       >
     </p>
@@ -84,14 +89,14 @@
 a:not(.active, .inactive) {
   border-bottom-color: transparent;
   &:hover {
-    border-bottom-color: #FCD34D;
+    border-bottom-color: #fcd34d;
   }
 }
 
 a.active {
-  border-bottom-color: #FCD34D;
+  border-bottom-color: #fcd34d;
   &:hover {
-    border-bottom-color: #FBBF24;
+    border-bottom-color: #fbbf24;
   }
 }
 </style>
