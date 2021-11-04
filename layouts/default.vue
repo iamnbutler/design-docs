@@ -74,4 +74,8 @@ figure p:last-child {
 .prose .tag {
   margin-bottom: 0;
 }
+
+.prose a {
+  color: inherit;
+}
 </style>
