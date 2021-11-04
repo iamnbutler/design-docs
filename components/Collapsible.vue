@@ -1,7 +1,7 @@
 <template>
   <div
     class="collapsible relative flex flex-col mb-2"
-    :class="{ active: isActive, '-left-6': outdent }"
+    :class="{ active: isActive, '-left-0 md:-left-6': outdent }"
   >
     <div
       class="title flex flex-row items-center font-medium cursor-pointer"
@@ -25,7 +25,7 @@
         <slot name="title">Title</slot>
       </div>
     </div>
-    <div class="content hidden" :class="{ 'ml-6': outdent }">
+    <div class="content hidden" :class="{ 'ml-0 md:ml-6': outdent }">
       <slot name="content"></slot>
     </div>
   </div>
