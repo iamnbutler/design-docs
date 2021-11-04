@@ -14,7 +14,7 @@
       the types of work they have in their portfolios.
     </p>
     <p>Let's jump right in.</p>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title
         ><h3>User Experience Design (& User Interface Design)</h3></template
       >
@@ -33,7 +33,7 @@
           the screen so that people can understand them without thinking.
         </p>
         <p>
-          For an evergreen read on the basics of designing UI: Steve Krug's
+          For an evergreen read on designing UI: Steve Krug's
           <a href="https://sensible.com/dont-make-me-think/"
             >Don't Make Me Think</a
           >.
@@ -88,7 +88,7 @@
         </ul>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Visual Design</h3></template>
       <template v-slot:content>
         <p>
@@ -108,7 +108,7 @@
         </p>
         <CollapsibleNested>
           <template v-slot:title>
-            Do I need visual design if I just want to be a UX designer?
+            <b>Do I need visual design if I just want to be a UX designer?</b>
           </template>
           <template v-slot:content>
             <p>
@@ -142,7 +142,7 @@
         </ul>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>UX Research</h3></template>
       <template v-slot:content>
         <p>
@@ -166,7 +166,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Product Design</h3></template>
       <template v-slot:content>
         <p>
@@ -219,7 +219,7 @@
       </template>
     </Collapsible>
     <h2>Senior Design Roles</h2>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Design Management</h3></template>
       <template v-slot:content>
         <p>
@@ -235,7 +235,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Staff/Director-level Design</h3></template>
       <template v-slot:content>
         <p>
@@ -247,7 +247,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Systems Design</h3></template>
       <template v-slot:content>
         <p>
@@ -313,7 +313,7 @@
       These all require going deep on a skill I would consider outside of (but
       often valuable for!) a designer's core skill set.
     </p>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Project Manager</h3></template>
       <template v-slot:content>
         <p>
@@ -332,7 +332,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Prototyper</h3></template>
       <template v-slot:content>
         <p>
@@ -343,7 +343,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible outdent>
+    <Collapsible expanded outdent>
       <template v-slot:title><h3>Design Engineer/Developer</h3></template>
       <template v-slot:content>
         <p>
