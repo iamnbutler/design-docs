@@ -17,6 +17,7 @@
     <ul>
         <li><a href="https://dlibrary.stanford.edu/questions">Design Questions Library</a> - Stanford d.school</li>
         <li><a href="https://nlevin.medium.com/ux-design-recommendations-8de563c5fbfa">UX Design Resources & Recommendations</a> – Noah Levin</li>
+        <li><a href="https://medium.com/the-year-of-the-looking-glass">The year of the looking glass</a> – Julie Zhou</li>
     </ul>
     <FooterNav
       prev

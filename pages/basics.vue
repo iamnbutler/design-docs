@@ -17,12 +17,9 @@
       While opinions vary, there is a path that many designers recommend
       starting with.
     </p>
-    <p>To get us started, a quote from Julie Zhou:</p>
-
+    <p>A quote to get us started:</p>
     <figure class="">
-      <div
-        class="quote p-4 rounded-2xl bg-yellow-100 text-base text-yellow-900"
-      >
+      <div class="quote p-4 rounded-2xl bg-gray-100 text-bas">
         <div
           class=""
           cite="https://medium.com/the-year-of-the-looking-glass/the-beginning-of-your-design-career-549828025494"
@@ -67,59 +64,87 @@
       you learn how designers layout screens, help you become more proficient in
       design tool, and help you become faster when working on your projects.
     </p>
-    <p>
-      <b>Don't treat your work as precious.</b> Get feedback early and often,
-      and be willing to change your approach and explore alternatives. Don't be
-      offended when you get feedback that work isn't good, or the direction you
-      like the best isn't the one that works. Get used to accepting feedback on
-      your work – this is a skill you need to grow in your career.
-    </p>
-    <p>
-      <b
-        >Critical (constructive) feedback is the most vital thing you can
-        receive from others</b
-      >to develop your skills. If you feel hesitant about asking for feedback
-      about something, that is almost always a sign that you should go get some
-      feedback! And not from the person that always tells you your work is
-      great.
-    </p>
-
-    <p>
-      <b
-        >You will get better feedback by sharing your work throughout its
-        development.</b
+    <Collapsible expanded outdent>
+      <template v-slot:title
+        ><h3>Don't treat your work as precious</h3></template
       >
-      Here are three valuable times to get feedback:
-    </p>
-    <ol>
-      <li>When you first develop an idea</li>
-      <li>
-        After you have explored at least 3-4 directions (never share only a
-        single approach at this stage!)
-      </li>
-      <li>Following a deep dive on a promising direction</li>
-    </ol>
-    <p>
-      If you get feedback at these three points, you will most often receive
-      actionable feedback rather than receiving feedback that is irrelevant or
-      too late to be helpful.
-    </p>
-
-    <p>
-      The best designers I know get feedback early and often from their peers,
-      both on a 1:1 basis and when available, in a formal critique setting.
-    </p>
-
-    <p>
-      <b>You become a better designer by putting in the work.</b> Improving your
-      design skill is like building muscle. Practice every day, and train the
-      right skills. Without putting in the work, it is impossible to get better.
-    </p>
-    <p>
-      There are no shortcuts—Put in the work consistently, and you will get
-      better. The designers you look up to have put tens of thousands of hours
-      into improving their craft.
-    </p>
+      <template v-slot:content>
+        <p>
+          Get feedback early and often, and be willing to change your approach
+          and explore alternatives. Don't be offended when you get feedback that
+          work isn't good, or the direction you like the best isn't the one that
+          works. Get used to accepting feedback on your work – this is a skill
+          you need to grow in your career.
+        </p>
+      </template>
+    </Collapsible>
+    <Collapsible expanded outdent>
+      <template v-slot:title
+        ><h3>Critical feedback is vital to develop your skills</h3></template
+      >
+      <template v-slot:content>
+        <p>
+          When constructive, critical feedback is one of the most important
+          things you can receive from others to develop your skills. If you feel
+          hesitant about asking for feedback about something, that is almost
+          always a sign that you should go get some feedback! Ideally not from
+          the person that always tells you your work is great.
+        </p>
+        <p></p>
+      </template>
+    </Collapsible>
+    <Collapsible expanded outdent>
+      <template v-slot:title
+        ><h3>
+          You will get better feedback by sharing work in progress
+        </h3></template
+      >
+      <template v-slot:content>
+        <p>
+          Get feedback early and often, and be willing to change your approach
+          and explore alternatives. Don't be offended when you get feedback that
+          work isn't good, or the direction you like the best isn't the one that
+          works. Get used to accepting feedback on your work – this is a skill
+          you need to grow in your career.
+        </p>
+        <p>Here are three valuable times to get feedback:</p>
+        <ol>
+          <li>When you first develop an idea</li>
+          <li>
+            After you have explored at least 3-4 directions (never share only a
+            single approach at this stage!)
+          </li>
+          <li>Following a deep dive on a promising direction</li>
+        </ol>
+        <p>
+          If you get feedback at these three points, you will most often receive
+          actionable feedback rather than receiving feedback that is irrelevant
+          or too late to be helpful.
+        </p>
+        <p>
+          The best designers I know get feedback early and often from their
+          peers, both on a 1:1 basis and when available, in a formal critique
+          setting.
+        </p>
+      </template>
+    </Collapsible>
+    <Collapsible expanded outdent>
+      <template v-slot:title
+        ><h3>You become a better designer by putting in the work</h3></template
+      >
+      <template v-slot:content>
+        <p>
+          Improving your design skill is like building muscle. Practice every
+          day, and train the right skills. Without putting in the work, it is
+          impossible to get better.
+        </p>
+        <p>
+          There are no shortcuts—Put in the work consistently, and you will get
+          better. The designers you look up to have put tens of thousands of
+          hours into improving their craft.
+        </p>
+      </template>
+    </Collapsible>
 
     <h2>Choosing your toolkit</h2>
     <p>
@@ -132,13 +157,13 @@
       problems, consider taking a step back and thinking through if you need a
       new tool.
     </p>
-    <p>A core tool kit for a designer starting to build products is:</p>
+    <p><b>A core tool kit for a designer starting to build products is:</b></p>
     <ul>
       <li>One design tool (Figma, Sketch, XD)</li>
       <li>One prototyping tool (Protopie, Figma, Origami Studio, Framer)</li>
       <li>One presentation tool (Keynote, Google Slides, Figma)</li>
     </ul>
-    <p>Additionally, the following may be helpful:</p>
+    <p><b>Additionally, the following may be helpful:</b></p>
     <ul>
       <li>One notes & sheets tool (Notion, Google Drive, an Office suite)</li>
       <li>One image tool (Photoshop, Affinity Designer/Photo)</li>
@@ -199,8 +224,8 @@
     <div class="editorial p-3 rounded-xl bg-blue-50 text-blue-900">
       <p>
         If you don't enjoy it, <b>you don't have to learn to code.</b> It isn't
-        for everyone! Most design roles won't expect you to code, but you will have
-        more options and be in more demand when you can.
+        for everyone! Most design roles won't expect you to code, but you will
+        have more options and be in more demand when you can.
       </p>
     </div>
     <FooterNav

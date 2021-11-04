@@ -88,7 +88,7 @@
         </ul>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Visual Design</h3></template>
       <template v-slot:content>
         <p>
@@ -142,7 +142,7 @@
         </ul>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>UX Research</h3></template>
       <template v-slot:content>
         <p>
@@ -166,7 +166,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Product Design</h3></template>
       <template v-slot:content>
         <p>
@@ -219,7 +219,7 @@
       </template>
     </Collapsible>
     <h2>Senior Design Roles</h2>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Design Management</h3></template>
       <template v-slot:content>
         <p>
@@ -235,7 +235,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Staff/Director-level Design</h3></template>
       <template v-slot:content>
         <p>
@@ -247,7 +247,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Systems Design</h3></template>
       <template v-slot:content>
         <p>
@@ -313,7 +313,7 @@
       These all require going deep on a skill I would consider outside of (but
       often valuable for!) a designer's core skill set.
     </p>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Project Manager</h3></template>
       <template v-slot:content>
         <p>
@@ -332,7 +332,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Prototyper</h3></template>
       <template v-slot:content>
         <p>
@@ -343,7 +343,7 @@
         </p>
       </template>
     </Collapsible>
-    <Collapsible  outdent>
+    <Collapsible outdent>
       <template v-slot:title><h3>Design Engineer/Developer</h3></template>
       <template v-slot:content>
         <p>
