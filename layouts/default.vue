@@ -22,7 +22,7 @@ body {
 }
 
 .prose h2:not(:first-child) {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .prose h3:not(:first-child) {
