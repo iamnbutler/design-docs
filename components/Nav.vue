@@ -1,5 +1,5 @@
 <template>
-  <nav class="font-mono pb-8 mb-8 mr-32 flex-none flex flex-col">
+  <nav class="font-mono pb-8 mb-4 md:mb-8 mr-32 flex-none flex flex-col">
     <ul>
       <li>
         <NuxtLink
@@ -60,7 +60,7 @@
       <li><p class="mt-2 text-xs text-gray-400">&midast; Work in progress!</p></li>
     </ul>
 
-    <p class="pt-12 text-xs text-gray-500">
+    <p class="pt-12 text-xs text-gray-500 hidden md:block">
       <a href="https://github.com/iamnbutler/design-resources" class="hover:text-gray-800" target="_blank"
         >Ver 1.0</a
       >,
@@ -72,7 +72,7 @@
         >Nate Butler</a
       >
     </p>
-    <p class="mt-2 text-xs text-gray-400">
+    <p class="mt-2 text-xs text-gray-400 hidden md:block">
       Last updated
       <time
         class="inline-block"
