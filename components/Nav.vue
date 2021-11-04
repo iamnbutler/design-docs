@@ -26,18 +26,11 @@
         >
       </li>
       <li>
-        <!-- <NuxtLink
+        <NuxtLink
           to="/work"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Have work to show</NuxtLink
-        > -->
-        <a
-          href="#coming-soon"
-          class="
-            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
-          "
-          >Have work to show</a
         >
       </li>
       <li>
@@ -49,18 +42,11 @@
         >
       </li>
       <li>
-        <!-- <NuxtLink
+        <NuxtLink
           to="/talk"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Talk about your work</NuxtLink
-        > -->
-        <a
-          href="#coming-soon"
-          class="
-            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
-          "
-          >Talk about your work</a
         >
       </li>
       <li>
