@@ -17,14 +17,19 @@
         wish I had known when I started designing.
       </p>
       <p>
-        I built this site so you all can return to it for reference as you
-        begin the first steps of your design journey.
+        I built this site so you all can return to it for reference as you begin
+        the first steps of your design journey.
       </p>
       <p>
-        You can give feedback on anything on this site using this form, or if
-        you are familiar with Github you can start a discussion. Feel free to
-        reach out to me over <a href="mail-to:iamnbutler@gmail.com">email</a> or
-        on <a href="https://twitter.com/iamnbutler">twitter</a> as well!
+        You can give feedback on anything on this site
+        <a href="https://forms.gle/jimgp3uAk8df8MUH9">using this form</a>, or if
+        you are familiar with Github you can
+        <a
+          href="https://github.com/iamnbutler/design-industry-intro/discussions/new"
+          >start a discussion</a
+        >. Feel free to reach out to me over
+        <a href="mail-to:iamnbutler@gmail.com">email</a> or on
+        <a href="https://twitter.com/iamnbutler">twitter</a> as well!
       </p>
     </div>
 
