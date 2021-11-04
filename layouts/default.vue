@@ -33,6 +33,12 @@
   </main>
 </template>
 
+<script>
+export default {
+  scrollToTop: true
+}
+</script>
+
 <style>
 body {
   width: 100vw;

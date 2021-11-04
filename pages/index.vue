@@ -44,3 +44,9 @@
     <FooterNav next nextLink="roles" nextText="Discover the roles" />
   </article>
 </template>
+
+<script>
+export default {
+  scrollToTop: true
+}
+</script>
