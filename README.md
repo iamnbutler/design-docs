@@ -9,7 +9,7 @@ There is no "right way" to find your path in the industry. The world of digital 
 
 Together, we'll outline some common paths, roles, and the way they interact. However, never feel like you must follow a path anyone lays out for you. One of the most magical things about design and the digital world is that you can always forge your own way, and there are some exciting corners to find.
 
-[Visit the site](https://design-industry-intro.netlify.app/)
+[Visit the site](http://design-intro.nate.tips/)
 
 ## The Project
 
