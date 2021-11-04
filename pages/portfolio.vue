@@ -41,7 +41,7 @@
     <h2>The Basics</h2>
     <ul>
       <li>
-        Minimum <b>three</b> projects. Its far better to have a basic site with
+        Minimum <b>three</b> projects. It's far better to have a basic site with
         strong projects than a beautiful custom site with a few weak projects.
       </li>
       <li>
