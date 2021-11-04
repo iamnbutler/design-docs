@@ -4,7 +4,7 @@
     :class="{ active: isActive, '-left-6': outdent }"
   >
     <div
-      class="title flex flex-row items-center font-medium cursor-pointer bg-gray-100 p-1 pl-3 rounded-lg"
+      class="title flex flex-row items-center font-medium cursor-pointer bg-gray-50 p-1 pl-3 rounded-lg"
       @click="isActive = !isActive"
     >
       <span class="icon chevron mr-3">

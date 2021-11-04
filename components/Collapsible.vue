@@ -73,7 +73,7 @@ export default {
       padding-bottom: 2rem;
       &::after {
         content: "⸺";
-        color: #ddd;
+        color: #FCD34D;
       }
     }
 

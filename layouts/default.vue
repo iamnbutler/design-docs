@@ -29,11 +29,11 @@ body {
   margin-top: 2rem;
 }
 
-figure p:first-child {
+.editorial p:first-child, figure p:first-child {
   margin-top: 0;
 }
 
-figure p:last-child {
+.editorial p:last-child, figure p:last-child {
   margin-bottom: 0;
 }
 
