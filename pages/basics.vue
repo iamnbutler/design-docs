@@ -1,7 +1,6 @@
 <template>
   <article>
-    <h2>Learn the Basics</h2>
-    <h3>Design fundamentals</h3>
+    <h2>Fundamentals</h2>
     <p>
       Early career designers face a flurry of roles, expectations, and
       technologies they are expected to understand, consider and internalize.
@@ -55,7 +54,7 @@
       </figcaption>
     </figure>
 
-    <h3>Improving your craft</h3>
+    <h2>Improving your craft</h2>
     <p>
       As Julie says above, balancing core design skills while early in your
       career will help you build an excellent foundation and set you up for
@@ -122,7 +121,7 @@
       into improving their craft.
     </p>
 
-    <h3>On tools</h3>
+    <h2>Choosing your toolkit</h2>
     <p>
       It is easy to get overwhelmed with the number of tools and the mixed
       messages coming from all sides on which tools to learn.
@@ -133,7 +132,6 @@
       problems, consider taking a step back and thinking through if you need a
       new tool.
     </p>
-    <h3>Choosing your toolkit</h3>
     <p>A core tool kit for a designer starting to build products is:</p>
     <ul>
       <li>One design tool (Figma, Sketch, XD)</li>
@@ -166,7 +164,7 @@
         you might need beyond it afterward.
       </p>
     </div>
-    <h3>Should designers code, write, etc?</h3>
+    <h2>Should designers code, write, _____?</h2>
     <p>
       All of these things are valuable, yet their value is significantly less
       than strengthening your design craft.
@@ -201,8 +199,8 @@
     <div class="editorial p-3 rounded-xl bg-blue-50 text-blue-900">
       <p>
         If you don't enjoy it, <b>you don't have to learn to code.</b> It isn't
-        for everyone! Most design roles won't expect you to code, you will have
-        more options when you can.
+        for everyone! Most design roles won't expect you to code, but you will have
+        more options and be in more demand when you can.
       </p>
     </div>
     <FooterNav
