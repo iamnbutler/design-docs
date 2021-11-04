@@ -112,7 +112,7 @@
     </p>
 
     <p>
-      <b>You become a better designer by putting in the work.</b>Improving your
+      <b>You become a better designer by putting in the work.</b> Improving your
       design skill is like building muscle. Practice every day, and train the
       right skills. Without putting in the work, it is impossible to get better.
     </p>
