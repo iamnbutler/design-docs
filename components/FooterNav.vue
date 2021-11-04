@@ -25,10 +25,9 @@
         p-2
         pl-4
         pr-4
-        bg-yellow-50
-        hover:bg-yellow-200
         rounded-lg
       "
+      :class="{ 'bg-yellow-50 hover:bg-yellow-200': next }"
     >
       <NuxtLink
         v-if="next"
