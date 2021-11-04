@@ -233,8 +233,8 @@
       prevLink="roles"
       prevText="Discover the roles"
       next
-      nextLink="portfolio"
-      nextText="Have a portfolio"
+      nextLink="work"
+      nextText="Have work to show"
     />
   </article>
 </template>

@@ -366,7 +366,7 @@
       prevText="Intro"
       next
       nextLink="basics"
-      nextText="Learn the basics"
+      nextText="Build a foundation"
     />
   </article>
 </template>

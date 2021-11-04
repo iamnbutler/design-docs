@@ -97,8 +97,8 @@
       prevLink="work"
       prevText="Have work to show"
       next
-      nextLink="readings"
-      nextText="Further Reading"
+      nextLink="talk"
+      nextText="Talk about your work"
     />
   </article>
 </template>
