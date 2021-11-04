@@ -18,7 +18,7 @@ This is an ongoing project to help early career designers bootstrap their up to 
 I generally want to bias towards giving direction without being overly opinionated. There are infinite paths, tools and opinions out there, and I hope having a clearly outlined example of an early path will be helpful to some.
 
 You can leave feedback on the project & content here:
-[Feedback – Getting your first job in the product design industry](https://docs.google.com/forms/d/1N9lyMLgSvDIC2nIl54IUBW2M_tEIl_snJtTumy8CDNY/prefill)
+[Feedback – Getting your first job in the product design industry](https://forms.gle/jimgp3uAk8df8MUH9)
 
 ### Contributing
 
