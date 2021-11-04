@@ -17,5 +17,10 @@
         <li><a href="http://thinkingwithtype.com/">Thinking with Type – Ellen Lupton</a></li>
         <li><a href="http://thinkingwithtype.com/">Graphic Design: The New Basics – Ellen Lupton and Jennifer Cole Phillips</a></li>
     </ul>
+    <FooterNav
+      prev
+      prevLink="portfolio"
+      prevText="Have a portfolio"
+    />
   </article>
 </template>

@@ -30,14 +30,14 @@ export default {
 a:not(.active) {
   border-bottom-color: transparent;
   &:hover {
-    border-bottom-color: #34d399;
+    border-bottom-color: #FCD34D;
   }
 }
 
 a.active {
-  border-bottom-color: #34d399;
+  border-bottom-color: #FCD34D;
   &:hover {
-    border-bottom-color: #10b981;
+    border-bottom-color: #FBBF24;
   }
 }
 .nav-footer a {

@@ -205,5 +205,13 @@
         more options when you can.
       </p>
     </div>
+    <FooterNav
+      prev
+      prevLink="roles"
+      prevText="Discover the roles"
+      next
+      nextLink="portfolio"
+      nextText="Have a portfolio"
+    />
   </article>
 </template>

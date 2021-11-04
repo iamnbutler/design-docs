@@ -68,7 +68,7 @@
           to="/readings"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
-          >Further Readings</NuxtLink
+          >Further Reading</NuxtLink
         >
       </li>
     </ul>

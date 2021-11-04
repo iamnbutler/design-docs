@@ -279,18 +279,53 @@
     <h3>Other Design Roles</h3>
     <ul>
       <li>Brand Design, Icon Design, Accessibility Design, Type Design, etc</li>
-      <li>Specializations inside a single field (UX designer -> prototyper or systems designer, visual designer -> brand designer)</li>
-      <li><a href="https://www.nngroup.com/articles/design-operations-101/">Design Operations</a></li>
+      <li>
+        Specializations inside a single field (UX designer -> prototyper or
+        systems designer, visual designer -> brand designer)
+      </li>
+      <li>
+        <a href="https://www.nngroup.com/articles/design-operations-101/"
+          >Design Operations</a
+        >
+      </li>
     </ul>
     <h3>Tangential Roles</h3>
-    <p>These all require going deep on a skill I would consider outside of (but often valuable for!) a designer's core skill set.</p>
-    <p><b>Project Manager</b> – plan and document new ideas, and help organize a team around building them. Your responsibility as a product manager is to keep a team engaged and on time, as well as triage any conflicts your team might encounter.</p>
-    <p>Designers can become great product managers because, initially, these roles can seem to be at odds. Time and craft often rub against each other but producing a good product takes both. In the product manager role, you have the chance to argue from both sides, helping everyone on the team understand the value of both high-level execution and moving quickly.</p>
-    <p><b>Prototyper</b> – focus on building complex or detailed prototypes for other designers and teams. Prototypers may use a visual design tool like Figma or Origami Studio, an animation tool like After Effects, or even build prototypes in code.</p>
-    <p><b>Design Engineer/Developer</b> – like building your own designs? Some designers choose to learn the tools they need to build anything they design. These tools could range from learning a web stack to learning a language to build mobile apps like Swift or React Native.</p>
-    <FooterNav prev prevLink="/" prevText="Intro" />
-    <!-- next
-    nextLink="basics"
-    nextText="Learn the basics" -->
+    <p>
+      These all require going deep on a skill I would consider outside of (but
+      often valuable for!) a designer's core skill set.
+    </p>
+    <p>
+      <b>Project Manager</b> – plan and document new ideas, and help organize a
+      team around building them. Your responsibility as a product manager is to
+      keep a team engaged and on time, as well as triage any conflicts your team
+      might encounter.
+    </p>
+    <p>
+      Designers can become great product managers because, initially, these
+      roles can seem to be at odds. Time and craft often rub against each other
+      but producing a good product takes both. In the product manager role, you
+      have the chance to argue from both sides, helping everyone on the team
+      understand the value of both high-level execution and moving quickly.
+    </p>
+    <p>
+      <b>Prototyper</b> – focus on building complex or detailed prototypes for
+      other designers and teams. Prototypers may use a visual design tool like
+      Figma or Origami Studio, an animation tool like After Effects, or even
+      build prototypes in code.
+    </p>
+    <p>
+      <b>Design Engineer/Developer</b> – like building your own designs? Some
+      designers choose to learn the tools they need to build anything they
+      design. These tools could range from learning a web stack to learning a
+      language to build mobile apps like Swift or React Native.
+    </p>
+    <FooterNav
+      prev
+      prevLink="/"
+      prevText="Intro"
+      next
+      nextLink="basics"
+      nextText="Learn the basics"
+    />
   </article>
 </template>

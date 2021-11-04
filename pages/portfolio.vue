@@ -46,5 +46,13 @@
       <li>Each time you finish a project, do a quick write-up while it is fresh in your mind. Before long, you will have a ton of work to share when you create a complete portfolio site.</li>
       <li><a href="https://read.cv/andy">Andy Chung's</a> cv is a great example of what you are going for. <a href="https://read.cv/andy/X2KMqw0jLQhaeavZHPK5">This project</a> is exactly the length you are going for.</li>
     </ol>
+    <FooterNav
+      prev
+      prevLink="basics"
+      prevText="Build a foundation"
+      next
+      nextLink="readings"
+      nextText="Further Reading"
+    />
   </article>
 </template>
