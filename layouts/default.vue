@@ -4,7 +4,7 @@
     <Meta name="description" :content="''" />
     <Link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎒</text></svg>" />
   </Head>
-  <main class="pl-8 pr-8">
+  <main class="pl-4 pr-4">
     <h1
       class="container mx-auto pt-8 md:pt-16 font-mono font-bold text-gray-700"
     >

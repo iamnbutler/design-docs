@@ -31,7 +31,7 @@
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Have work to show </NuxtLink
-        ><span class="text-gray-400">&nbsp;🞯</span>
+        ><span class="text-gray-400">&nbsp;&midast;</span>
       </li>
       <li>
         <NuxtLink
@@ -47,7 +47,7 @@
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Talk about your work</NuxtLink
-        ><span class="text-gray-400">&nbsp;🞯</span>
+        ><span class="text-gray-400">&nbsp;&midast;</span>
       </li>
       <li>
         <NuxtLink
@@ -57,7 +57,7 @@
           >Further Reading</NuxtLink
         >
       </li>
-      <li><p class="mt-2 text-xs text-gray-400">🞯 Work in progress!</p></li>
+      <li><p class="mt-2 text-xs text-gray-400">&midast; Work in progress!</p></li>
     </ul>
 
     <p class="pt-12 text-xs text-gray-500">
