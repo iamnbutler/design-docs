@@ -18,18 +18,11 @@
         >
       </li>
       <li>
-        <!-- <NuxtLink
+        <NuxtLink
           to="/basics"
           class="pt-2 pb-2 mb-2 inline-flex border-b-4"
           active-class="active"
           >Build a foundation</NuxtLink
-        > -->
-        <a
-          href="#coming-soon"
-          class="
-            pt-2 pb-2 mb-2 inline-flex border-b-4 border-b-transparent text-gray-400 inactive
-          "
-          >Build a foundation</a
         >
       </li>
       <li>
@@ -105,14 +98,14 @@
 a:not(.active, .inactive) {
   border-bottom-color: transparent;
   &:hover {
-    border-bottom-color: #34d399;
+    border-bottom-color: #FCD34D;
   }
 }
 
 a.active {
-  border-bottom-color: #34d399;
+  border-bottom-color: #FCD34D;
   &:hover {
-    border-bottom-color: #10b981;
+    border-bottom-color: #FBBF24;
   }
 }
 </style>

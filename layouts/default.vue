@@ -40,7 +40,10 @@ body {
 .align-with-list {
   margin: 0;
   margin-left: 2rem;
-  
+}
+
+.prose .tag {
+  margin-bottom: 0;
 }
 
 </style>
