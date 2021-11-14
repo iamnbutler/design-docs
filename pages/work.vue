@@ -28,7 +28,7 @@
     </div>
     <p>
       If you need content for a long passage, try using open content found
-      online or text from a copywrite free book.
+      online or text from a copyright free book.
     </p>
     <h3>Show, don't tell</h3>
     <p>
