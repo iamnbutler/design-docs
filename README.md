@@ -27,6 +27,15 @@ You can leave feedback on the project & content here:
 - Open an issue or discussion for updates to content.
 - Feel free to reach out with any thoughts or questions!
 
+
+### TODO
+
+- Split this repository into two – One for content in raw markdown and one for the website.
+- Bring in some contributors to write and review content.
+- Rewrite content in a more neutral perspective, with optional, attributable opinion blocks.
+- Finish all the existing sections
+- Start a proper project to track TODOs for a proper v2.0 launch.
+
 ### Tech
 
 The site is built using the <a href="https://v3.nuxtjs.org/">Nuxt 3 Beta</a> & <a href="https://tailwindcss.com/">tailwindcss</a>.
