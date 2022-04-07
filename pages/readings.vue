@@ -22,6 +22,17 @@
         <li><a href="https://dlibrary.stanford.edu/questions">Design Questions Library</a> - Stanford d.school</li>
         <li><a href="https://nlevin.medium.com/ux-design-recommendations-8de563c5fbfa">UX Design Resources & Recommendations</a> – Noah Levin</li>
         <li><a href="https://medium.com/the-year-of-the-looking-glass">The year of the looking glass</a> – Julie Zhou</li>
+        <li><a href="https://brianlovin.com/crit>">Open design critiques</a> – Brian Lovin</li>
+    </ul>
+    <h3>Example Portfolios</h3>
+    <ul>
+        <li><a href="http://effyzhang.com">Effy Zhang</a> – effyzhang.com</li>
+        <li><a href="https://read.cv/andy">Andy Chung</a> - read.cv/andy</li>
+        <li><a href="https://owltastic.com">Meagan Fisher Couldwell</a> - owltastic.com</li>
+        <li><a href="https://www.mollymielke.com">Molly Mielke</a> - mollymielke.com</li>
+        <li><a href="https://www.cristianrus4.me">Cristian Rus</a> – cristianrus4.me</li>
+        <li><a href="https://jntt.co">Janette Council</a> – jntt.co</li>
+        <li><a href="https://brianlovin.com">Brian Lovin</a> – brianlovin.com</li>
     </ul>
     <FooterNav
       prev
