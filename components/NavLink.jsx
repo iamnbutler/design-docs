@@ -1,8 +1,12 @@
-import { ExternalIcon } from "./Icon";
 import { default as NextLink } from "next/link";
 import { useRouter } from "next/router";
+import { ExternalIcon } from "./Icon";
 
-export default function Link({ href, name, external = false }) {
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
+
+export default function Link({ href, name, icon, external = false }) {
   {
     /* prettier-ignore-start */
   }
@@ -18,13 +22,11 @@ export default function Link({ href, name, external = false }) {
 
   // Current nav links
   const activeStyle = `
-    text-base06 
-    hover:text-base06`;
+    text-base06`;
 
   // Nav links that are not current
   const inactiveStyle = `
-    text-base04
-    hover:bg-base02 border-base00`;
+    text-base04 hover:text-base06`;
 
   {
     /* prettier-ignore-end */
@@ -37,12 +39,25 @@ export default function Link({ href, name, external = false }) {
   return (
     <NextLink href={href} passHref>
       <a className={commonStyle} aria-current={current && "page"}>
-        <span className="truncate">{name}</span>
-        {external && (
-          <span className="font-mono text-xs opacity-50">
-            <ExternalIcon />
-          </span>
-        )}
+        {icon && (<div
+          className={classNames(
+            current
+              ? "bg-base09/25 group-hover:bg-base09/40"
+              : "bg-base01 group-hover:bg-base03 border-base00",
+            "p-1.5 flex items-center text-md rounded-lg space-x-2 text-base06"
+          )}
+        >
+          <span className={current ? 'opacity-100' : 'opacity-40 group-hover:opacity-80'}>{icon}</span>
+        </div>)}
+
+        <div>
+          <span className="truncate">{name}</span>
+          {external && (
+            <span className="font-mono text-xs opacity-50">
+              <ExternalIcon />
+            </span>
+          )}
+        </div>
       </a>
     </NextLink>
   );
