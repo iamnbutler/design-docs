@@ -3,9 +3,9 @@ import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import Head from "next/head";
-import Link from "next/link";
 import path from "path";
 import Layout from "../../components/Layout";
+import PageProse from '../../components/PageProse'
 import { postFilePaths, POSTS_PATH } from "../../utils/mdxUtils";
 
 const components = {
@@ -49,28 +49,14 @@ export const getStaticPaths = async () => {
 };
 
 export default function PostPage({ source, frontMatter }) {
+  const title = frontMatter.title
+  const description = frontMatter.description
+
   return (
     <Layout>
-      <Link href="/">
-        <a className="px-4 py-2 border rounded-lg bg-base02 border-base03 text-base07">Go back home</a>
-      </Link>
-      <div className="relative py-16 overflow-hidden">
-        <div className="text-lg max-w-none">
-          <span className="block text-base font-semibold tracking-wide text-center uppercase">
-            {frontMatter.description && (
-              <p className="description text-base0B">
-                {frontMatter.description}
-              </p>
-            )}
-          </span>
-          <h1 className="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-base0C sm:text-4xl">
-            {frontMatter.title}
-          </h1>
-        </div>
-        <main className="mx-auto mt-6 text-xl prose prose-xl text-base07">
-          <MDXRemote {...source} components={components} />
-        </main>
-      </div>
+      <PageProse title={title} description={description}>
+        <MDXRemote {...source} components={components} />
+      </PageProse>
     </Layout>
   );
 }

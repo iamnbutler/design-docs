@@ -1,10 +1,6 @@
 import LeftNav from "./LeftNav";
 import TopNav from "./TopNav";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 export default function Layout({ children }) {
   return (
     <>
