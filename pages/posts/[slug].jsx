@@ -57,7 +57,7 @@ export default function PostPage({ source, frontMatter }) {
       </Link>
       <div className="relative py-16 overflow-hidden bg-white">
         <div className="relative px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto text-lg max-w-prose">
+          <div className="mx-auto text-lg max-w-none">
             <span className="block text-base font-semibold tracking-wide text-center text-indigo-600 uppercase">
               {frontMatter.description && (
                 <p className="description">{frontMatter.description}</p>
