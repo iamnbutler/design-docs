@@ -45,33 +45,59 @@ module.exports = {
       DEFAULT: {
         css: {
           color: theme.base07,
-          fontSize: rem(16),
+          fontSize: rem(20),
           lineHeight: round(28 / 16),
-          // Headlines
-          h1: {
-            color: theme.base09,
-            fontSize: rem(32),
-          },
-          h2: {
-            color: theme.base0E,
-            fontSize: rem(24),
-            fontWeight: '700',
-          },
-          h3: {
-            color: theme.base0A,
-            fontSize: rem(20),
-            fontWeight: '700',
-          },
-          // Body
-          p: {
-            marginTop: em(16, 14),
-            marginBottom: em(16, 14),
-          },
+          // Links
           a: {
             color: theme.base09,
             "&:hover": {
               color: theme.base0B,
             },
+            textDecoration: 'underline',
+            fontWeight: '500',
+          },
+          // Headlines
+          h1: {
+            color: theme.base09,
+            fontSize: rem(32),
+            marginTop: em(36, 20),
+            marginBottom: em(12, 20),
+          },
+          h2: {
+            color: theme.base0E,
+            fontSize: rem(28),
+            fontWeight: '700',
+            marginTop: em(48, 20),
+            marginBottom: em(24, 20),
+          },
+          h3: {
+            color: theme.base09,
+            fontSize: rem(20),
+            fontWeight: '700',
+            marginTop: em(36, 20),
+            marginBottom: em(12, 20),
+          },
+          h4: {
+            marginTop: em(36, 20),
+            marginBottom: em(12, 20),
+            lineHeight: round(32 / 20),
+            color: theme.base0C,
+            fontWeight: '700',
+          },
+          'h2 + *': {
+            marginTop: '0',
+          },
+          'h3 + *': {
+            marginTop: '0',
+          },
+          'h4 + *': {
+            marginTop: '0',
+          },
+          // Body
+          p: {
+            marginTop: em(16, 14),
+            marginBottom: em(16, 14),
+            fontSize: rem(20),
           },
           // Blockquotes
           blockquote: {
@@ -88,16 +114,72 @@ module.exports = {
           ol: {
             marginTop: em(20, 16),
             marginBottom: em(20, 16),
-            paddingLeft: em(26, 16),
+            paddingLeft: em(20, 16),
+            listStyleType: 'decimal',
           },
           ul: {
             marginTop: em(20, 16),
             marginBottom: em(20, 16),
-            paddingLeft: em(26, 16),
+            paddingLeft: em(20, 16),
+            listStyleType: 'disc',
           },
           li: {
             marginTop: em(8, 16),
             marginBottom: em(8, 16),
+          },
+          'ol[type="A"]': {
+            listStyleType: 'upper-alpha',
+          },
+          'ol[type="a"]': {
+            listStyleType: 'lower-alpha',
+          },
+          'ol[type="A" s]': {
+            listStyleType: 'upper-alpha',
+          },
+          'ol[type="a" s]': {
+            listStyleType: 'lower-alpha',
+          },
+          'ol[type="I"]': {
+            listStyleType: 'upper-roman',
+          },
+          'ol[type="i"]': {
+            listStyleType: 'lower-roman',
+          },
+          'ol[type="I" s]': {
+            listStyleType: 'upper-roman',
+          },
+          'ol[type="i" s]': {
+            listStyleType: 'lower-roman',
+          },
+          'ol[type="1"]': {
+            listStyleType: 'decimal',
+          },
+          // Nested lists
+          'ol > li': {
+            paddingLeft: em(6, 14),
+          },
+          'ul > li': {
+            paddingLeft: em(6, 14),
+          },
+          '> ul > li p': {
+            marginTop: em(8, 14),
+            marginBottom: em(8, 14),
+          },
+          '> ul > li > *:first-child': {
+            marginTop: em(16, 14),
+          },
+          '> ul > li > *:last-child': {
+            marginBottom: em(16, 14),
+          },
+          '> ol > li > *:first-child': {
+            marginTop: em(16, 14),
+          },
+          '> ol > li > *:last-child': {
+            marginBottom: em(16, 14),
+          },
+          'ul ul, ul ol, ol ul, ol ol': {
+            marginTop: em(8, 14),
+            marginBottom: em(8, 14),
           },
           // Dividers
           hr: {
