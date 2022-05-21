@@ -58,41 +58,6 @@ export default function LeftNav() {
           icon={item.icon}
           key={item.href}
         />
-        // <a
-        //   key={item.name}
-        //   href={item.href}
-        //   className={classNames(
-        //     current
-        //       ? "text-base06"
-        //       : "hover:bg-base02 border-base00 text-base04",
-        //     "group flex items-center px-3 py-2 text-md font-bold space-x-3 rounded-lg"
-        //   )}
-
-        // >
-        //   <div
-        //     className={classNames(
-        //       current
-        //         ? "bg-base09 text-base00 border-base00/50 border"
-        //         : "bg-base01 group-hover:bg-base02 border-base00 text-base07",
-        //       "p-2 flex items-center text-md rounded-lg space-x-2"
-        //     )}
-        //   >
-        //     <GithubIcon />
-        //   </div>
-        //   <span className="truncate"></span>
-        //   {item.count ? (
-        //     <span
-        //       className={classNames(
-        //         current
-        //           ? "bg-white"
-        //           : "bg-gray-100 text-gray-600 group-hover:bg-gray-200",
-        //         "ml-auto inline-block py-0.5 px-3 text-xs rounded-full"
-        //       )}
-        //     >
-        //       {item.count}
-        //     </span>
-        //   ) : null}
-        // </a>
       ))}
     </nav>
   );
