@@ -50,6 +50,17 @@ module.exports = {
           // Headlines
           h1: {
             color: theme.base09,
+            fontSize: rem(32),
+          },
+          h2: {
+            color: theme.base0E,
+            fontSize: rem(24),
+            fontWeight: '700',
+          },
+          h3: {
+            color: theme.base0A,
+            fontSize: rem(20),
+            fontWeight: '700',
           },
           // Body
           p: {
@@ -61,6 +72,17 @@ module.exports = {
             "&:hover": {
               color: theme.base0B,
             },
+          },
+          // Blockquotes
+          blockquote: {
+            marginTop: em(16, 14),
+            marginBottom: em(16, 14),
+            backgroundColor: theme.base01,
+            paddingTop: 1,
+            paddingRight: 16,
+            paddingBottom: 1,
+            paddingLeft: 16,
+            borderRadius: rem(4),
           },
           // Lists
           ol: {

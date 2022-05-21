@@ -14,14 +14,14 @@ const navigation = [
     icon: <InformationCircleIcon className="w-4 h-4" />,
   },
   {
-    name: "Discover the Roles",
-    href: "/posts/roles",
-    icon: <SearchIcon className="w-4 h-4" />,
-  },
-  {
     name: "Build a Foundation",
     href: "/posts/basics",
     icon: <BookOpenIcon className="w-4 h-4" />,
+  },
+  {
+    name: "Discover the Roles",
+    href: "/posts/roles",
+    icon: <SearchIcon className="w-4 h-4" />,
   },
   {
     name: "Have work to show",
@@ -48,7 +48,7 @@ const navigation = [
 export default function LeftNav() {
   return (
     <nav
-      className="p-4 space-y-1 border-r w-96 border-base00"
+      className="my-16 mx-4 space-y-1 border-r w-96 border-base00"
       aria-label="Sidebar"
     >
       {navigation.map((item) => (
