@@ -14,14 +14,14 @@ function classNames(...classes) {
 export default function Layout({ children }) {
   return (
     <>
-      <div className="flex space-x-1">
-        <nav className="space-y-1 w-64 p-4" aria-label="Sidebar">
+      <div className="flex w-screen min-h-screen space-x-1 overflow-x-hidden bg-base00">
+        <nav className="w-64 p-4 space-y-1 border-r bg-base01 border-base02" aria-label="Sidebar">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
               className={classNames(
-                item.current ? 'bg-gray-100 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900',
+                item.current ? 'bg-gray-100 text-gray-900' : 'bg-base-01 hover:bg-base02 border-base03 text-base07',
                 'group flex items-center px-3 py-2 text-sm font-medium rounded-md'
               )}
               aria-current={item.current ? 'page' : undefined}
