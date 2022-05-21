@@ -11,7 +11,7 @@ const tools = [
 
 export default function TopNav() {
   return (
-    <nav className="flex justify-between max-w-5xl px-8 mx-auto">
+    <nav className="flex justify-between max-w-5xl px-8 py-1 mx-auto">
       <div className="flex items-center space-x-4 grow">
         <NextLink href="/">
           <a className="block py-2 font-bold text-md text-base0A">
