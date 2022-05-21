@@ -67,7 +67,7 @@ export default function PostPage({ source, frontMatter }) {
             {frontMatter.title}
           </h1>
         </div>
-        <main className="mx-auto mt-6 text-xl prose prose-xl text-gray-500">
+        <main className="mx-auto mt-6 text-xl prose prose-xl text-base07">
           <MDXRemote {...source} components={components} />
         </main>
       </div>

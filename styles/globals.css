@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: #191724;
+  --scrollbarBG: transparent;
+}
+
+html { font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  scrollbar-gutter: stable;
+  background-color: var(--background);
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision !important;
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.005);
+}
