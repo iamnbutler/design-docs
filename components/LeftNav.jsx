@@ -40,7 +40,7 @@ const navigation = [
   },
   {
     name: "Further Reading",
-    href: "/posts/readings",
+    href: "/posts/resources",
     icon: <BookmarkIcon className="w-4 h-4" />,
   },
 ];
