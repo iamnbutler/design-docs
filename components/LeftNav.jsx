@@ -48,7 +48,7 @@ const navigation = [
 export default function LeftNav() {
   return (
     <nav
-      className="my-16 mx-4 space-y-1 border-r w-96 border-base00"
+      className="min-h-full py-8 mx-2 space-y-1 border-r w-96 border-base03"
       aria-label="Sidebar"
     >
       {navigation.map((item) => (

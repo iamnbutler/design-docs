@@ -4,8 +4,11 @@ import { MDXRemote } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import Head from "next/head";
 import path from "path";
+import slug from 'rehype-slug';
+import remarkGfm from 'remark-gfm';
+import remarkToc from 'remark-toc';
 import Layout from "../../components/Layout";
-import PageProse from '../../components/PageProse'
+import PageProse from '../../components/PageProse';
 import { postFilePaths, POSTS_PATH } from "../../utils/mdxUtils";
 
 const components = {
@@ -21,8 +24,13 @@ export const getStaticProps = async ({ params }) => {
   const mdxSource = await serialize(content, {
     // Optionally pass remark/rehype plugins
     mdxOptions: {
-      remarkPlugins: [],
-      rehypePlugins: [],
+      remarkPlugins: [
+        remarkToc,
+        remarkGfm
+      ],
+      rehypePlugins: [
+        slug
+      ],
     },
     scope: data,
   });
