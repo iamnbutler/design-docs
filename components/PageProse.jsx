@@ -9,7 +9,10 @@ export default function PageProse({
         <div className="text-lg"></div>
         {children && (
           <main className="mt-6 text-xl prose prose-xl text-base06">
-            <h1>{title}</h1>
+            <div className="mb-12">
+              <h1>{title}</h1>
+              <p className="italic opacity-60">{description}</p>
+            </div>
             {children}
           </main>
         )}

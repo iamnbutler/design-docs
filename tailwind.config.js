@@ -38,6 +38,9 @@ module.exports = {
     "./utils/**/*.{js,ts,jsx,tsx,md,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'serif': ['Lora', 'ui-serif', 'serif']
+    },
     extend: {
       colors: theme,
     },
@@ -58,8 +61,8 @@ module.exports = {
           },
           // Headlines
           h1: {
-            color: theme.base08,
-            fontSize: rem(28),
+            color: theme.base07,
+            fontSize: rem(32),
             marginTop: em(36, 20),
             marginBottom: em(12, 20),
             fontWeight: '800',

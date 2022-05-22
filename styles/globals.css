@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&display=swap');
+
+@layer base {
+  h1, h2 {
+    font-family: "Lora", serif;
+  }
+}
+
 :root {
   --background: #191724;
   --scrollbarBG: transparent;
