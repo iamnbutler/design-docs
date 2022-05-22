@@ -2,22 +2,22 @@
 // Some examples of base16 themes here: https://github.com/chriskempson/base16
 
 const theme = {
-  base00: "#191724",
-  base01: "#1f1d2e",
-  base02: "#26233a",
-  base03: "#555169",
-  base04: "#6e6a86",
-  base05: "#e0def4",
-  base06: "#f0f0f3",
-  base07: "#c5c3ce",
-  base08: "#e2e1e7",
-  base09: "#eb6f92",
-  base0A: "#f6c177",
-  base0B: "#ebbcba",
-  base0C: "#31748f",
-  base0D: "#9ccfd8",
-  base0E: "#c4a7e7",
-  base0F: "#e5e5e5",
+  base00: "#1E2025",
+  base01: "#23262E",
+  base02: "#292E38",
+  base03: "#2E323C",
+  base04: "#ACA8AE",
+  base05: "#CBC9CF",
+  base06: "#E1DDE4",
+  base07: "#F7F7F8",
+  base08: "#F92672",
+  base09: "#F39C12",
+  base0A: "#FFE66D",
+  base0B: "#96E072",
+  base0C: "#00E8C6",
+  base0D: "#0CA793",
+  base0E: "#8A3FA6",
+  base0F: "#C74DED",
 };
 
 // Utilities from tailwind typography's default config
@@ -49,29 +49,30 @@ module.exports = {
           lineHeight: round(28 / 16),
           // Links
           a: {
-            color: theme.base09,
+            color: theme.base0B,
             "&:hover": {
-              color: theme.base0B,
+              color: theme.base08,
             },
             textDecoration: 'underline',
             fontWeight: '500',
           },
           // Headlines
           h1: {
-            color: theme.base09,
-            fontSize: rem(32),
+            color: theme.base08,
+            fontSize: rem(28),
+            marginTop: em(36, 20),
+            marginBottom: em(12, 20),
+            fontWeight: '800',
+          },
+          h2: {
+            color: theme.base0D,
+            fontSize: rem(24),
+            fontWeight: '700',
             marginTop: em(36, 20),
             marginBottom: em(12, 20),
           },
-          h2: {
-            color: theme.base0E,
-            fontSize: rem(28),
-            fontWeight: '700',
-            marginTop: em(48, 20),
-            marginBottom: em(24, 20),
-          },
           h3: {
-            color: theme.base09,
+            color: theme.base0D,
             fontSize: rem(20),
             fontWeight: '700',
             marginTop: em(36, 20),

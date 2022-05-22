@@ -42,7 +42,7 @@ export default function Link({ href, name, icon, external = false }) {
         {icon && (<div
           className={classNames(
             current
-              ? "bg-base09/25 group-hover:bg-base09/40"
+              ? "bg-base0C/25 group-hover:bg-base0C/40"
               : "bg-base01 group-hover:bg-base03 border-base00",
             "p-1.5 flex items-center text-md rounded-lg space-x-2 text-base06"
           )}
