@@ -7,10 +7,14 @@
   --scrollbarBG: transparent;
 }
 
-html { font-family: 'Inter', sans-serif; }
+html {
+  font-family: "Inter", sans-serif;
+}
 
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 body {
@@ -19,5 +23,5 @@ body {
   text-rendering: optimizeLegibility;
   text-rendering: geometricPrecision !important;
   -webkit-font-smoothing: antialiased !important;
-  text-shadow:1px 1px 1px rgba(0,0,0,0.005);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.005);
 }

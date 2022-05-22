@@ -1,5 +1,5 @@
 import NextLink from "next/link";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import { GithubIcon } from "./Icon";
 
 const tools = [
@@ -12,7 +12,7 @@ const tools = [
 
 export default function TopNav() {
   // let current = useRouter().asPath === href;
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <nav className="flex justify-between px-6 py-1">
@@ -30,7 +30,6 @@ export default function TopNav() {
         </a>
       </div>
       <div className="flex items-center space-x-4 text-base06">
-
         {/* TODO: Add tooltips to tools after Chakra is added. */}
         {tools.map((tool) => (
           <a

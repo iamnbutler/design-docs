@@ -32,23 +32,29 @@ export default function Link({ href, name, icon, external = false }) {
     /* prettier-ignore-end */
   }
 
-  current
-    ? (commonStyle += activeStyle)
-    : (commonStyle += inactiveStyle);
+  current ? (commonStyle += activeStyle) : (commonStyle += inactiveStyle);
 
   return (
     <NextLink href={href} passHref>
       <a className={commonStyle} aria-current={current && "page"}>
-        {icon && (<div
-          className={classNames(
-            current
-              ? "bg-base0C/25 group-hover:bg-base0C/40"
-              : "bg-base01 group-hover:bg-base03 border-base00",
-            "p-1.5 flex items-center text-md rounded-lg space-x-2 text-base06"
-          )}
-        >
-          <span className={current ? 'opacity-100' : 'opacity-40 group-hover:opacity-80'}>{icon}</span>
-        </div>)}
+        {icon && (
+          <div
+            className={classNames(
+              current
+                ? "bg-base0C/25 group-hover:bg-base0C/40"
+                : "bg-base01 group-hover:bg-base03 border-base00",
+              "p-1.5 flex items-center text-md rounded-lg space-x-2 text-base06"
+            )}
+          >
+            <span
+              className={
+                current ? "opacity-100" : "opacity-40 group-hover:opacity-80"
+              }
+            >
+              {icon}
+            </span>
+          </div>
+        )}
 
         <div>
           <span className="truncate">{name}</span>

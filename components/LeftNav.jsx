@@ -1,5 +1,7 @@
 import {
-  BookmarkIcon, BookOpenIcon, ChatIcon,
+  BookmarkIcon,
+  BookOpenIcon,
+  ChatIcon,
   CursorClickIcon,
   InformationCircleIcon,
   PhotographIcon,
@@ -51,14 +53,23 @@ export default function LeftNav() {
       className="min-h-full py-8 mx-2 space-y-1 border-r w-96 border-base03"
       aria-label="Sidebar"
     >
-      {navigation.map((item) => (
-        <NavLink
-          name={item.name}
-          href={item.href}
-          icon={item.icon}
-          key={item.href}
-        />
-      ))}
+      <div className="pb-4">
+        {navigation.map((item) => (
+          <NavLink
+            name={item.name}
+            href={item.href}
+            icon={item.icon}
+            key={item.href}
+          />
+        ))}
+      </div>
+      <ul className="pt-4 border-t border-base03">
+        <li>
+          <NavLink name="About" href="https://github.com/iamnbutler/design-docs/blob/main/README.md" />
+          <NavLink name="Contributors" href="https://github.com/iamnbutler/design-docs/graphs/contributors" />
+          <NavLink name="Release Notes" href="https://github.com/iamnbutler/design-docs/releases" />
+        </li>
+      </ul>
     </nav>
   );
 }
