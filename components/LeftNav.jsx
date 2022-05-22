@@ -11,11 +11,6 @@ import NavLink from "./NavLink";
 
 const navigation = [
   {
-    name: "Introduction",
-    href: "/posts/intro",
-    icon: <InformationCircleIcon className="w-4 h-4" />,
-  },
-  {
     name: "Build a Foundation",
     href: "/posts/basics",
     icon: <BookOpenIcon className="w-4 h-4" />,
@@ -53,6 +48,11 @@ export default function LeftNav() {
       className="min-h-full py-8 mx-2 space-y-1 border-r w-96 border-base03"
       aria-label="Sidebar"
     >
+      <NavLink
+        name="Introduction"
+        href="/"
+        icon={<InformationCircleIcon className="w-4 h-4" />}
+      />
       <div className="pb-4">
         {navigation.map((item) => (
           <NavLink
@@ -65,11 +65,26 @@ export default function LeftNav() {
       </div>
       <ul className="pt-4 border-t border-base03">
         <li>
-          <NavLink name="About" href="https://github.com/iamnbutler/design-docs/blob/main/README.md" />
-          <NavLink name="Contributors" href="https://github.com/iamnbutler/design-docs/graphs/contributors" />
-          <NavLink name="Release Notes" href="https://github.com/iamnbutler/design-docs/releases" />
+          <NavLink
+            name="About"
+            href="https://github.com/iamnbutler/design-docs/blob/main/README.md"
+          />
+          <NavLink
+            name="Contributors"
+            href="https://github.com/iamnbutler/design-docs/graphs/contributors"
+          />
+          <NavLink
+            name="Release Notes"
+            href="https://github.com/iamnbutler/design-docs/releases"
+          />
         </li>
       </ul>
+      <div
+        className="flex flex-col px-3 py-2 space-y-2 text-sm opacity-50 group text-base04 hover:opacity-100"
+      >
+        <p>Design docs is an open source project. Anyone can contribute, and this content can be used in any way.</p>
+        <a href="https://github.com/iamnbutler/design-docs/blob/main/LICENSE" className="underline hover:text-base08">CC0-1.0</a>
+      </div>
     </nav>
   );
 }
