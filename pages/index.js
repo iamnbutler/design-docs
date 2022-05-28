@@ -12,10 +12,12 @@ export default function Index() {
         <p>
           There is no "right way" to find your path in the industry. The world
           of digital product design is still rapidly evolving and has come a
-          long way, even in the past five years. The exciting part is you are on
-          your way to joining an industry with a tremendous amount of impact on
-          people's day-to-day lives–It's up to you to make it for better and not
-          for worse.
+          long way, even in the past five years.
+        </p>
+        <p>
+          The exciting part is you are on your way to joining an industry with a
+          tremendous amount of impact on people's day-to-day lives–It's up to
+          you to make it for better and not for worse.
         </p>
         <h2>Finding Your Path</h2>
         <p>

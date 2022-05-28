@@ -39,7 +39,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'serif': ['Lora', 'ui-serif', 'serif']
+      serif: ["Lora", "ui-serif", "serif"],
     },
     extend: {
       colors: theme,
@@ -56,8 +56,8 @@ module.exports = {
             "&:hover": {
               color: theme.base08,
             },
-            textDecoration: 'underline',
-            fontWeight: '500',
+            textDecoration: "underline",
+            fontWeight: "500",
           },
           // Headlines
           h1: {
@@ -65,19 +65,19 @@ module.exports = {
             fontSize: rem(32),
             marginTop: em(36, 20),
             marginBottom: em(12, 20),
-            fontWeight: '800',
+            fontWeight: "800",
           },
           h2: {
             color: theme.base0D,
             fontSize: rem(24),
-            fontWeight: '700',
+            fontWeight: "700",
             marginTop: em(36, 20),
             marginBottom: em(12, 20),
           },
           h3: {
             color: theme.base0D,
             fontSize: rem(20),
-            fontWeight: '700',
+            fontWeight: "700",
             marginTop: em(36, 20),
             marginBottom: em(12, 20),
           },
@@ -86,16 +86,16 @@ module.exports = {
             marginBottom: em(12, 20),
             lineHeight: round(32 / 20),
             color: theme.base0C,
-            fontWeight: '700',
+            fontWeight: "700",
           },
-          'h2 + *': {
-            marginTop: '0',
+          "h2 + *": {
+            marginTop: "0",
           },
-          'h3 + *': {
-            marginTop: '0',
+          "h3 + *": {
+            marginTop: "0",
           },
-          'h4 + *': {
-            marginTop: '0',
+          "h4 + *": {
+            marginTop: "0",
           },
           // Body
           p: {
@@ -119,69 +119,69 @@ module.exports = {
             marginTop: em(20, 16),
             marginBottom: em(20, 16),
             paddingLeft: em(20, 16),
-            listStyleType: 'decimal',
+            listStyleType: "decimal",
           },
           ul: {
             marginTop: em(20, 16),
             marginBottom: em(20, 16),
             paddingLeft: em(20, 16),
-            listStyleType: 'disc',
+            listStyleType: "disc",
           },
           li: {
             marginTop: em(8, 16),
             marginBottom: em(8, 16),
           },
           'ol[type="A"]': {
-            listStyleType: 'upper-alpha',
+            listStyleType: "upper-alpha",
           },
           'ol[type="a"]': {
-            listStyleType: 'lower-alpha',
+            listStyleType: "lower-alpha",
           },
           'ol[type="A" s]': {
-            listStyleType: 'upper-alpha',
+            listStyleType: "upper-alpha",
           },
           'ol[type="a" s]': {
-            listStyleType: 'lower-alpha',
+            listStyleType: "lower-alpha",
           },
           'ol[type="I"]': {
-            listStyleType: 'upper-roman',
+            listStyleType: "upper-roman",
           },
           'ol[type="i"]': {
-            listStyleType: 'lower-roman',
+            listStyleType: "lower-roman",
           },
           'ol[type="I" s]': {
-            listStyleType: 'upper-roman',
+            listStyleType: "upper-roman",
           },
           'ol[type="i" s]': {
-            listStyleType: 'lower-roman',
+            listStyleType: "lower-roman",
           },
           'ol[type="1"]': {
-            listStyleType: 'decimal',
+            listStyleType: "decimal",
           },
           // Nested lists
-          'ol > li': {
+          "ol > li": {
             paddingLeft: em(6, 14),
           },
-          'ul > li': {
+          "ul > li": {
             paddingLeft: em(6, 14),
           },
-          '> ul > li p': {
+          "> ul > li p": {
             marginTop: em(8, 14),
             marginBottom: em(8, 14),
           },
-          '> ul > li > *:first-child': {
+          "> ul > li > *:first-child": {
             marginTop: em(16, 14),
           },
-          '> ul > li > *:last-child': {
+          "> ul > li > *:last-child": {
             marginBottom: em(16, 14),
           },
-          '> ol > li > *:first-child': {
+          "> ol > li > *:first-child": {
             marginTop: em(16, 14),
           },
-          '> ol > li > *:last-child': {
+          "> ol > li > *:last-child": {
             marginBottom: em(16, 14),
           },
-          'ul ul, ul ol, ol ul, ol ol': {
+          "ul ul, ul ol, ol ul, ol ol": {
             marginTop: em(8, 14),
             marginBottom: em(8, 14),
           },
@@ -191,8 +191,8 @@ module.exports = {
             marginTop: em(48, 16),
             marginBottom: em(48, 16),
           },
-          'hr + *': {
-            marginTop: '0',
+          "hr + *": {
+            marginTop: "0",
           },
         },
       },

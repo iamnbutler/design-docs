@@ -5,7 +5,7 @@ import {
   CursorClickIcon,
   InformationCircleIcon,
   PhotographIcon,
-  SearchIcon
+  SearchIcon,
 } from "@heroicons/react/solid";
 import NavLink from "./NavLink";
 
@@ -79,11 +79,17 @@ export default function LeftNav() {
           />
         </li>
       </ul>
-      <div
-        className="flex flex-col px-3 py-2 space-y-2 text-sm opacity-50 group text-base04 hover:opacity-100"
-      >
-        <p>Design docs is an open source project. Anyone can contribute, and this content can be used in any way.</p>
-        <a href="https://github.com/iamnbutler/design-docs/blob/main/LICENSE" className="underline hover:text-base08">CC0-1.0</a>
+      <div className="flex flex-col px-3 py-2 space-y-2 text-sm opacity-50 group text-base04 hover:opacity-100">
+        <p>
+          Design docs is an open source project. Anyone can contribute, and this
+          content can be used in any way.
+        </p>
+        <a
+          href="https://github.com/iamnbutler/design-docs/blob/main/LICENSE"
+          className="underline hover:text-base08"
+        >
+          CC0-1.0
+        </a>
       </div>
     </nav>
   );

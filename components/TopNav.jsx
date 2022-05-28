@@ -11,7 +11,6 @@ const tools = [
 ];
 
 export default function TopNav() {
-
   return (
     <nav className="flex justify-between px-6 py-1">
       <div className="flex items-center space-x-4 grow">

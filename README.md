@@ -21,7 +21,7 @@ You can leave feedback on the project & content here:
 
 ### Contributing
 
-*Note: This site and all its contents are published under a **CC0-1.0** license. This means that anyone can do anything with this content, including use it in commercial works or copy it word for word. I think education work belongs in the public domain without constraints, so if you decide to contribute, make sure you are ok with this!*
+_Note: This site and all its contents are published under a **CC0-1.0** license. This means that anyone can do anything with this content, including use it in commercial works or copy it word for word. I think education work belongs in the public domain without constraints, so if you decide to contribute, make sure you are ok with this!_
 
 - Building the project should be as easy as cloning it locally and running `npm install`. You can run the `dev:watch` script to get live reloading of MDX content.
 - Feel free to contribute a PR with any fixes, typos, etc.
@@ -46,4 +46,3 @@ You can leave feedback on the project & content here:
 
 - V2.0.0: This version
 - [V1.0.0](https://main--design-industry-intro.netlify.app/)
-

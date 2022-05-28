@@ -17,7 +17,11 @@ export default function Layout({ children }) {
             <LeftNav />
             <div className="w-full">
               {/* Main has focus:outline-none to prevent a focus ring when jumping to it from the skip link */}
-              <main className="max-w-4xl px-16 mx-auto border-base03 focus:outline-none" id="main-content" tabIndex={-1}>
+              <main
+                className="max-w-4xl px-16 mx-auto border-base03 focus:outline-none"
+                id="main-content"
+                tabIndex={-1}
+              >
                 {children}
               </main>
             </div>
