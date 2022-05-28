@@ -30,11 +30,20 @@ _Note: This site and all its contents are published under a **CC0-1.0** license.
 
 ### TODO
 
-- Split this repository into two – One for content in raw markdown and one for the website.
-- Bring in some contributors to write and review content.
+**Short Term**
 - Rewrite content in a more neutral perspective, with optional, attributable opinion blocks.
 - Finish all the existing sections
+- Overally accessibility pass on the site
+- Improve performance and deal with smaller issues (Lighthouse)
+- Set up CI for code quality, accessibility checks
+- Add tests
+
+**Long Term**
 - Start a project to track TODOs
+- Create a style guide for tone & writing style
+- Source contributors to write and review content and industry professionals to review content and provide quotes and snippets.
+- Split this repository into two – One for content in raw markdown content and one for the website.
+- Many more to come!
 
 ### Tech
 
