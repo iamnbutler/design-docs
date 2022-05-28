@@ -51,8 +51,3 @@ _Note: This site and all its contents are published under a **CC0-1.0** license.
 - Next.js
 - Tailwindcss
 - MDXRemote
-
-### Version History
-
-- V2.0.0: This version
-- [V1.0.0](https://main--design-industry-intro.netlify.app/)
