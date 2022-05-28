@@ -35,6 +35,7 @@ export default function TopNav() {
             title={tool.name}
             key={tool.name}
             target="_blank"
+            rel="noreferrer"
             className="bg-base00 hover:opacity-80 border-base04/10 w-8 h-8 justify-center flex 
             items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md"
           >
