@@ -41,9 +41,9 @@ export default function Link({ href, name, icon, external = false }) {
           <div
             className={classNames(
               current
-                ? "bg-base0C/25 group-hover:bg-base0C/40"
-                : "bg-base01 group-hover:bg-base03 border-base00",
-              "p-1.5 flex items-center text-md rounded-lg space-x-2 text-base06"
+                ? "bg-base0C/25 group-hover:bg-base0C/40 border-base04/20"
+                : "bg-base01 group-hover:bg-base03 border-base04/10",
+              "p-1.5 flex items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md"
             )}
           >
             <span

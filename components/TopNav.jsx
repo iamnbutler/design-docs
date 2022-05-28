@@ -11,8 +11,6 @@ const tools = [
 ];
 
 export default function TopNav() {
-  // let current = useRouter().asPath === href;
-  const router = useRouter();
 
   return (
     <nav className="flex justify-between px-6 py-1">
@@ -23,7 +21,8 @@ export default function TopNav() {
           </a>
         </NextLink>
         <a
-          className="block px-2 py-0.5 text-sm font-bold border rounded-md text-base06 border-base03 opacity-100 hover:opacity-80"
+          className="bg-base02 hover:opacity-80 border-base04/10 px-3 h-8 justify-center flex 
+         items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md text-sm font-semibold"
           href="https://github.com/iamnbutler/design-industry-intro"
         >
           v2.0.0
@@ -37,7 +36,8 @@ export default function TopNav() {
             title={tool.name}
             key={tool.name}
             target="_blank"
-            className="opacity-100 hover:opacity-80"
+            className="bg-base00 hover:opacity-80 border-base04/10 w-8 h-8 justify-center flex 
+            items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md"
           >
             {tool.icon}
           </a>
