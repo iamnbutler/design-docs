@@ -66,15 +66,19 @@ export default function LeftNav() {
       <ul className="pt-4 border-t border-base03">
         <li>
           <NavLink
-            name="About"
+            name="About this site"
             href="https://github.com/iamnbutler/design-docs/blob/main/README.md"
+          />
+          <NavLink
+            name="How to contribute"
+            href="https://github.com/iamnbutler/design-docs/blob/main/CONTRIBUTING.md"
           />
           <NavLink
             name="Contributors"
             href="https://github.com/iamnbutler/design-docs/graphs/contributors"
           />
           <NavLink
-            name="Release Notes"
+            name="Release notes"
             href="https://github.com/iamnbutler/design-docs/releases"
           />
         </li>
