@@ -1,4 +1,5 @@
-# Design Docs – Semi-opinionated design industry documnetation
+# Design Docs
+_Semi-opinionated design industry documentation_
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -31,11 +32,11 @@ _Note: This site and all its contents are published under a **CC0-1.0** license.
 ### TODO
 
 **Short Term**
-- Rewrite content in a more neutral perspective, with optional, attributable opinion blocks.
+- Rewrite content in a more neutral perspective with optional, attributable opinion blocks.
 - Finish all the existing sections
-- Overally accessibility pass on the site
+- Overall accessibility pass on the site
 - Improve performance and deal with smaller issues (Lighthouse)
-- Set up CI for code quality, accessibility checks
+- Set up CI for code quality, and accessibility checks
 - Add tests
 
 **Long Term**
