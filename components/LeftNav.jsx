@@ -11,12 +11,12 @@ import NavLink from "./NavLink";
 
 const navigation = [
   {
-    name: "Build a Foundation",
+    name: "Build a foundation",
     href: "/posts/basics",
     icon: <BookOpenIcon className="w-4 h-4" />,
   },
   {
-    name: "Discover the Roles",
+    name: "Discover the roles",
     href: "/posts/roles",
     icon: <SearchIcon className="w-4 h-4" />,
   },
@@ -36,7 +36,7 @@ const navigation = [
     icon: <ChatIcon className="w-4 h-4" />,
   },
   {
-    name: "Further Reading",
+    name: "Further reading",
     href: "/posts/resources",
     icon: <BookmarkIcon className="w-4 h-4" />,
   },
