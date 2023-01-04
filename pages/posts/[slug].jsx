@@ -9,10 +9,12 @@ import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import Layout from "../../components/Layout";
 import PageProse from "../../components/PageProse";
-import { postFilePaths, POSTS_PATH } from "../../utils/mdxUtils";
+import Quote from "../../components/Quote";
+import { POSTS_PATH, postFilePaths } from "../../utils/mdxUtils";
 
 const components = {
   Head,
+  Quote,
 };
 
 export const getStaticProps = async ({ params }) => {
