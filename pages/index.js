@@ -3,7 +3,7 @@ import matter from "gray-matter";
 import path from "path";
 import Layout from "../components/Layout";
 import PageProse from "../components/PageProse";
-import { postFilePaths, POSTS_PATH } from "../utils/mdxUtils";
+import { POSTS_PATH, postFilePaths } from "../utils/mdxUtils";
 
 export default function Index() {
   return (

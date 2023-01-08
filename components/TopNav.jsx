@@ -1,5 +1,4 @@
 import NextLink from "next/link";
-import { useRouter } from "next/router";
 import { GithubIcon } from "./Icon";
 
 const tools = [
@@ -20,8 +19,7 @@ export default function TopNav() {
           </a>
         </NextLink>
         <a
-          className="bg-base02 hover:opacity-80 border-base04/10 px-3 h-8 justify-center flex 
-         items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md text-sm font-semibold"
+          className="flex items-center justify-center h-8 px-3 space-x-2 text-sm font-semibold border rounded-lg bg-base02 hover:opacity-80 border-base04/10 text-md text-base06 drop-shadow-md"
           href="https://github.com/iamnbutler/design-docs"
         >
           v2.0.0
@@ -36,8 +34,7 @@ export default function TopNav() {
             key={tool.name}
             target="_blank"
             rel="noreferrer"
-            className="bg-base00 hover:opacity-80 border-base04/10 w-8 h-8 justify-center flex 
-            items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md"
+            className="flex items-center justify-center w-8 h-8 space-x-2 border rounded-lg bg-base00 hover:opacity-80 border-base04/10 text-md text-base06 drop-shadow-md"
           >
             {tool.icon}
           </a>

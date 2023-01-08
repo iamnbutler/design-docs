@@ -1,6 +1,6 @@
 import {
-  BookmarkIcon,
   BookOpenIcon,
+  BookmarkIcon,
   ChatIcon,
   CursorClickIcon,
   InformationCircleIcon,

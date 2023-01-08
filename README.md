@@ -1,4 +1,5 @@
 # Design Docs
+
 _Semi-opinionated design industry documentation_
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
@@ -32,6 +33,7 @@ _Note: This site and all its contents are published under a **CC0-1.0** license.
 ### TODO
 
 **Short Term**
+
 - Rewrite content in a more neutral perspective with optional, attributable opinion blocks.
 - Finish all the existing sections
 - Overall accessibility pass on the site
@@ -40,6 +42,7 @@ _Note: This site and all its contents are published under a **CC0-1.0** license.
 - Add tests
 
 **Long Term**
+
 - Start a project to track TODOs
 - Create a style guide for tone & writing style
 - Source contributors to write and review content and industry professionals to review content and provide quotes and snippets.

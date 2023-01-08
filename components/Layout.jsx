@@ -1,6 +1,6 @@
 import LeftNav from "./LeftNav";
-import TopNav from "./TopNav";
 import SkipLink from "./SkipLink";
+import TopNav from "./TopNav";
 
 export default function Layout({ children }) {
   return (
