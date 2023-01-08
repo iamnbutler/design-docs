@@ -5,7 +5,7 @@ import { GithubIcon } from "./Icon";
 const tools = [
   {
     name: "Design Docs on Github",
-    href: "https://github.com/iamnbutler/design-industry-intro",
+    href: "https://github.com/iamnbutler/design-docs",
     icon: <GithubIcon />,
   },
 ];
@@ -22,7 +22,7 @@ export default function TopNav() {
         <a
           className="bg-base02 hover:opacity-80 border-base04/10 px-3 h-8 justify-center flex 
          items-center text-md rounded-lg space-x-2 text-base06 border drop-shadow-md text-sm font-semibold"
-          href="https://github.com/iamnbutler/design-industry-intro"
+          href="https://github.com/iamnbutler/design-docs"
         >
           v2.0.0
         </a>
