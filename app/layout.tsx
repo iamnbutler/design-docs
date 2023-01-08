@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import Link from 'next/link';
 import React from 'react';
 import { LessonNavItem } from './Lesson';
+import Sidebar from './sidebar';
 
 const lessons = [
   {
@@ -107,7 +108,7 @@ const lessons = [
 
 export function Navigation() {
   return (
-    <div className="col-span-2 p-4 space-y-4">
+    <div className="col-span-3 py-4 px-8 space-y-4">
       <Link href="/" className="font-bold text-zinc-300">
         Design Docs <span className="text-zinc-500">– 2.1</span>
       </Link>
@@ -116,14 +117,6 @@ export function Navigation() {
           <LessonNavItem key={lesson.href + i} lesson={lesson} />
         ))}
       </menu>
-    </div>
-  );
-}
-
-export function Sidebar() {
-  return (
-    <div className="col-span-3 p-4">
-      <div className="border border-zinc-800">sidebar</div>
     </div>
   );
 }
