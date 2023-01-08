@@ -1,7 +1,12 @@
 import '@/styles/globals.css';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { iADuoRegular } from './fonts/font';
 import { LessonNavItem } from './Lesson';
+import logoIcon from './nav/book-icon-256.png';
+import bookStackIcon from './nav/book-stack-icon-256.png';
+import toolboxIcon from './nav/toolbox-icon-256.png';
 import Sidebar from './sidebar';
 
 const lessons = [
@@ -9,6 +14,7 @@ const lessons = [
     name: 'Getting Started',
     href: '/',
     description: 'Learn the basics of the course',
+    icon: logoIcon,
     chapters: [
       {
         name: 'Chapter 1: Course Overview',
@@ -28,6 +34,7 @@ const lessons = [
     name: 'Build a foundation',
     href: '/foundation',
     description: 'Establish a solid foundation for your learning',
+    icon: toolboxIcon,
     chapters: [
       {
         name: 'Chapter 1: Basic Concepts',
@@ -51,6 +58,7 @@ const lessons = [
     name: 'Discover the roles',
     href: 'https://www.example.com/roles',
     description: 'Explore the different roles in the field',
+    icon: toolboxIcon,
     chapters: [
       {
         name: 'Chapter 1: Overview of Roles',
@@ -74,6 +82,7 @@ const lessons = [
     name: 'Have work to show',
     href: 'https://www.example.com/work',
     description: 'Start building a portfolio of your work',
+    icon: toolboxIcon,
     chapters: [
       {
         name: 'Chapter 1: Types of Work to Include',
@@ -92,25 +101,41 @@ const lessons = [
   {
     name: 'Have a portfolio',
     href: '/portfolio',
+    icon: toolboxIcon,
     description: 'Create a professional portfolio',
   },
   {
     name: 'Talk about your work',
     href: '/talk',
+    icon: toolboxIcon,
     description: 'Learn how to effectively present your work',
   },
   {
     name: 'Further reading',
     href: '/reading',
+    icon: bookStackIcon,
     description: 'Find additional resources for learning',
   },
 ];
 
 export function Navigation() {
   return (
-    <div className="col-span-3 py-4 px-8 space-y-4">
-      <Link href="/" className="font-bold text-zinc-300">
-        Design Docs <span className="text-zinc-500">– 2.1</span>
+    <div className="col-span-3 px-8 py-4 space-y-4">
+      <Link
+        href="/"
+        className="relative flex items-center px-4 space-x-4 font-bold text-zinc-300"
+      >
+        <Image
+          src={logoIcon.src}
+          width={32}
+          height={32}
+          alt="Design Docs Logo – An elaborate book icon"
+          className="relative top-0.5"
+        />
+        <div className="relative font-serif text-lg">
+          <span>Design Docs</span>
+          <span className="text-zinc-500"> – 2.1</span>
+        </div>
       </Link>
       <menu className="space-y-2">
         {lessons.map((lesson, i) => (
@@ -131,7 +156,11 @@ export default function RootLayout({
       <head>
         <title>Design Docs</title>
       </head>
-      <body className="overflow-y-scroll bg-zinc-900 text-zinc-50">
+      <body
+        className={`
+        ${iADuoRegular.className}
+        overflow-y-scroll bg-zinc-900 text-zinc-50`}
+      >
         <div className="grid w-full grid-cols-12 gap-4">
           <Navigation />
           <div className="col-span-7 p-4">{children}</div>

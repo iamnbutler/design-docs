@@ -15,7 +15,7 @@ const menuLinks = [
 
 function SidebarMenuLink({ label, href }: { label: string, href: string }) {
   return (
-    <a href={href} className={`flex items-center space-x-1.5 text-zinc-500 hover:text-indigo-600`}>
+    <a href={href} className={`flex items-center space-x-1.5 text-zinc-400 hover:text-indigo-600`}>
       <span>{label}</span> <span className="text-xs relative top-0.5">↗️</span>
     </a>
   )
