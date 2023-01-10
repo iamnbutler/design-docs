@@ -4,9 +4,9 @@ import Link from 'next/link';
 import React from 'react';
 import { iADuoRegular } from './fonts/font';
 import { LessonNavItem } from './Lesson';
-import logoIcon from './nav/book-icon-256.png';
-import bookStackIcon from './nav/book-stack-icon-256.png';
-import toolboxIcon from './nav/toolbox-icon-256.png';
+import { default as bookIcon, default as logoIcon } from './nav/book-icon.png';
+import compassIcon from './nav/compass-icon.png';
+import hammerIcon from './nav/hammer-icon.png';
 import Sidebar from './sidebar';
 
 const lessons = [
@@ -14,7 +14,7 @@ const lessons = [
     name: 'Getting Started',
     href: '/',
     description: 'Learn the basics of the course',
-    icon: logoIcon,
+    icon: bookIcon,
     chapters: [
       {
         name: 'Chapter 1: Course Overview',
@@ -34,7 +34,7 @@ const lessons = [
     name: 'Build a foundation',
     href: '/foundation',
     description: 'Establish a solid foundation for your learning',
-    icon: toolboxIcon,
+    icon: hammerIcon,
     chapters: [
       {
         name: 'Chapter 1: Basic Concepts',
@@ -58,7 +58,7 @@ const lessons = [
     name: 'Discover the roles',
     href: 'https://www.example.com/roles',
     description: 'Explore the different roles in the field',
-    icon: toolboxIcon,
+    icon: compassIcon,
     chapters: [
       {
         name: 'Chapter 1: Overview of Roles',
@@ -82,7 +82,7 @@ const lessons = [
     name: 'Have work to show',
     href: 'https://www.example.com/work',
     description: 'Start building a portfolio of your work',
-    icon: toolboxIcon,
+    icon: compassIcon,
     chapters: [
       {
         name: 'Chapter 1: Types of Work to Include',
@@ -101,19 +101,19 @@ const lessons = [
   {
     name: 'Have a portfolio',
     href: '/portfolio',
-    icon: toolboxIcon,
+    icon: compassIcon,
     description: 'Create a professional portfolio',
   },
   {
     name: 'Talk about your work',
     href: '/talk',
-    icon: toolboxIcon,
+    icon: compassIcon,
     description: 'Learn how to effectively present your work',
   },
   {
     name: 'Further reading',
     href: '/reading',
-    icon: bookStackIcon,
+    icon: compassIcon,
     description: 'Find additional resources for learning',
   },
 ];
