@@ -19,7 +19,8 @@
       "@/app/*": ["app/*"],
       "@/ui/*": ["ui/*"],
       "@/lib/*": ["lib/*"],
-      "@/styles/*": ["styles/*"]
+      "@/styles/*": ["styles/*"],
+      "@/public/*": ["public/*"]
     },
     "plugins": [
       {

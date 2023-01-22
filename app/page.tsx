@@ -3,7 +3,7 @@ import { iADuoRegular, iAQuattroRegular } from '@/app/fonts/font';
 export default function Page() {
   return (
     <article
-      className={`prose prose-lg !prose-invert prose-zinc mx-auto mt-12 ${iADuoRegular.className}`}
+      className={`prose prose-lg prose-slate mx-auto mt-12 ${iADuoRegular.className}`}
     >
       <h1 className={iAQuattroRegular.className}>Getting Started</h1>
       <p>
