@@ -1,8 +1,10 @@
-import { iADuoRegular, iAQuattroRegular } from "./fonts/font";
+import { iADuoRegular, iAQuattroRegular } from '@/app/fonts/font';
 
 export default function Page() {
   return (
-    <article className={`prose prose-lg !prose-invert prose-zinc mx-auto mt-12 ${iADuoRegular.className}`}>
+    <article
+      className={`prose prose-lg !prose-invert prose-zinc mx-auto mt-12 ${iADuoRegular.className}`}
+    >
       <h1 className={iAQuattroRegular.className}>Getting Started</h1>
       <p>
         The field of digital product design is constantly evolving and has grown

@@ -1,13 +1,13 @@
-import '@/styles/globals.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { iADuoRegular } from './fonts/font';
-import { LessonNavItem } from './Lesson';
-import { default as bookIcon, default as logoIcon } from './nav/book-icon.png';
-import compassIcon from './nav/compass-icon.png';
-import hammerIcon from './nav/hammer-icon.png';
-import Sidebar from './sidebar';
+import { iADuoRegular } from '@/app/fonts/font';
+import { LessonNavItem } from '@/app/Lesson';
+import bookIcon from '@/app/nav/book-icon.png';
+import compassIcon from '@/app/nav/compass-icon.png';
+import hammerIcon from '@/app/nav/hammer-icon.png';
+import Sidebar from '@/app/sidebar';
+import '@/styles/globals.css';
 
 const lessons = [
   {
@@ -120,13 +120,13 @@ const lessons = [
 
 export function Navigation() {
   return (
-    <div className="col-span-3 px-8 py-4 space-y-4">
+    <div className="col-span-3 space-y-4 px-8 py-4">
       <Link
         href="/"
-        className="relative flex items-center px-4 space-x-4 font-bold text-zinc-300"
+        className="relative flex items-center space-x-4 px-4 font-bold text-zinc-300"
       >
         <Image
-          src={logoIcon.src}
+          src={bookIcon.src}
           width={32}
           height={32}
           alt="Design Docs Logo – An elaborate book icon"

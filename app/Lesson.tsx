@@ -27,13 +27,14 @@ export function LessonNavItem({ lesson }: { lesson: Lesson }) {
       href={href}
       className={`
           flex items-center space-x-2 rounded border px-2 py-2 text-sm
-          ${current
-          ? 'border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-amber-500/10 shadow-xl hover:border-amber-500/30'
-          : 'border-transparent hover:border-zinc-800'
-        }
+          ${
+            current
+              ? 'border-amber-500/10 bg-gradient-to-r from-amber-500/5 to-amber-500/10 shadow-xl hover:border-amber-500/30'
+              : 'border-transparent hover:border-zinc-800'
+          }
         `}
       style={{
-        filter: 'drop-shadow(0px 4px 2px rgba(24,24,24,0.24))'
+        filter: 'drop-shadow(0px 4px 2px rgba(24,24,24,0.24))',
       }}
     >
       <Image
@@ -43,10 +44,10 @@ export function LessonNavItem({ lesson }: { lesson: Lesson }) {
         alt="Design Docs Logo – An elaborate book icon"
         className="relative top-0.5 flex h-12 w-12 grow-0"
         style={{
-          filter: 'drop-shadow(0px 4px 6px rgba(24,24,24,0.24))'
+          filter: 'drop-shadow(0px 4px 6px rgba(24,24,24,0.24))',
         }}
       />
-      <div className="flex flex-col relative top-0.5">
+      <div className="relative top-0.5 flex flex-col">
         <span
           className={`
           font-bold
@@ -70,7 +71,7 @@ export function LessonNavItem({ lesson }: { lesson: Lesson }) {
 
   if (current && chapters) {
     return (
-      <div className="flex flex-col pt-2 pb-4 space-y-2 border-b border-zinc-800">
+      <div className="flex flex-col space-y-2 border-b border-zinc-800 pt-2 pb-4">
         <header className="pb-2">{header}</header>
         {chapters.map((chapter, i) => {
           const current = pathname && pathname.startsWith(chapter.href);
@@ -78,8 +79,9 @@ export function LessonNavItem({ lesson }: { lesson: Lesson }) {
             <Link
               key={chapter.href + i}
               href={chapter.href}
-              className={`ml-4 text-sm ${current ? 'text-zinc-100' : 'text-zinc-400 hover:text-zinc-200'
-                }`}
+              className={`ml-4 text-sm ${
+                current ? 'text-zinc-100' : 'text-zinc-400 hover:text-zinc-200'
+              }`}
             >
               {chapter.name}
             </Link>
